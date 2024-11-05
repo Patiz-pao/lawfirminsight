@@ -16,7 +16,7 @@ export const useToggleNavbar = () => {
 
     checkMobile();
     window.addEventListener('resize', checkMobile);
-    
+
     return () => window.removeEventListener('resize', checkMobile);
   }, []);
 
@@ -25,13 +25,13 @@ export const useToggleNavbar = () => {
   }, [pathname]);
 
   const toggleNav = () => {
-    setIsOpen(!isOpen);
+    setIsOpen(prev => !prev);
   };
 
   return {
     isOpen,
     isMobile,
-    toggleNav
+    toggleNav,
   };
 };
 

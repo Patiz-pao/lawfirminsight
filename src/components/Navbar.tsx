@@ -1,6 +1,6 @@
 "use client";
 import { Link, usePathname, useRouter } from "@/i18n/routing";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { ChevronDown, Globe, Menu, X } from "lucide-react";
 import { useParams } from "next/navigation";
 import { useTranslations } from "next-intl";
@@ -23,6 +23,10 @@ const Navbar = () => {
   const handleServicesToggle = () => {
     setIsServicesOpen((prev) => !prev);
   };
+
+  useEffect(() => {
+    setIsServicesOpen(false);
+  }, [pathname]);
 
   return (
     <nav className="bg-gray-800">
@@ -180,45 +184,45 @@ const Navbar = () => {
                   />
                 </button>
                 <div
-                  className={`pl-4 space-y-2 transform transition-all duration-200 overflow-hidden ${
+                  className={`pl-4 space-y-3 transform transition-all duration-200 overflow-hidden ${
                     isServicesOpen
                       ? "max-h-screen opacity-100"
                       : "max-h-0 opacity-0"
                   }`}
                 >
                   <Link
-                    href="/services/consulting"
-                    className="block text-gray-300 hover:text-white py-2 transition-all duration-200 hover:translate-x-1"
+                    href="/services/page1"
+                    className="block text-gray-300 hover:text-white transition-colors duration-200 mt-2"
                   >
                     {t("services.service_title_1")}
                   </Link>
                   <Link
                     href="/services/development"
-                    className="block text-gray-300 hover:text-white py-2 transition-all duration-200 hover:translate-x-1"
+                    className="block text-gray-300 hover:text-white transition-colors duration-200 mt-2"
                   >
                     {t("services.service_title_2")}
                   </Link>
                   <Link
                     href="/services/cloud"
-                    className="block text-gray-300 hover:text-white py-2 transition-all duration-200 hover:translate-x-1"
+                    className="block text-gray-300 hover:text-white transition-colors duration-200 mt-2"
                   >
                     {t("services.service_title_3")}
                   </Link>
                   <Link
                     href="/services/security"
-                    className="block text-gray-300 hover:text-white py-2 transition-all duration-200 hover:translate-x-1"
+                    className="block text-gray-300 hover:text-white transition-colors duration-200 mt-2"
                   >
                     {t("services.service_title_4")}
                   </Link>
                   <Link
                     href="/services/training"
-                    className="block text-gray-300 hover:text-white py-2 transition-all duration-200 hover:translate-x-1"
+                    className="block text-gray-300 hover:text-white transition-colors duration-200 mt-2"
                   >
                     {t("services.service_title_5")}
                   </Link>
                   <Link
                     href="/services/support"
-                    className="block text-gray-300 hover:text-white py-2 transition-all duration-200 hover:translate-x-1"
+                    className="block text-gray-300 hover:text-white transition-colors duration-200 mt-2"
                   >
                     {t("services.service_title_6")}
                   </Link>
@@ -233,19 +237,6 @@ const Navbar = () => {
                 </Link>
               </li>
             </ul>
-
-            <div className="flex items-center space-x-2 pb-4 pt-2 border-t border-gray-600">
-              <Globe className="w-4 h-4 text-gray-300" />
-              <select
-                value={currentLocale}
-                onChange={(e) => switchLocale(e.target.value)}
-                className="bg-gray-700 text-gray-300 rounded px-2 py-1 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500 transition-colors duration-200"
-              >
-                <option value="th">ไทย</option>
-                <option value="en">English</option>
-                <option value="ch">Chaina</option>
-              </select>
-            </div>
           </div>
         )}
       </div>
