@@ -1,7 +1,7 @@
 "use client";
 import { Link, usePathname, useRouter } from "@/i18n/routing";
-import React from "react";
-import { Globe, Menu, X } from "lucide-react";
+import React, { useState } from "react";
+import { ChevronDown, Globe, Menu, X } from "lucide-react";
 import { useParams } from "next/navigation";
 import { useTranslations } from "next-intl";
 import { useToggleNavbar } from "@/hooks/useToggleNavbar";
@@ -12,6 +12,7 @@ const Navbar = () => {
   const params = useParams();
   const currentLocale = params.locale as string;
   const { isOpen, isMobile, toggleNav } = useToggleNavbar();
+  const [isServicesOpen, setIsServicesOpen] = useState(false);
 
   const switchLocale = (locale: string) => {
     router.replace(pathname, { locale });
@@ -19,11 +20,15 @@ const Navbar = () => {
 
   const t = useTranslations("Navbar");
 
+  const handleServicesToggle = () => {
+    setIsServicesOpen((prev) => !prev);
+  };
+
   return (
     <nav className="bg-gray-800">
-      <div className="container mx-auto max-w-[1140px] px-5 py-5 lg:px-10 lg:p-0">
+      <div className="container mx-auto max-w-[1140px] px-5 py-3 lg:px-0 lg:p-0">
         <div className="h-16 flex justify-between items-center">
-          <div className="text-white text-xl font-bold">{t('title')}</div>
+          <div className="text-white text-xl font-bold">{t("title")}</div>
 
           {isMobile && (
             <button
@@ -38,21 +43,88 @@ const Navbar = () => {
             </button>
           )}
 
-          {/* Desktop Navigation */}
           {!isMobile && (
             <div className="flex items-center space-x-4">
               <ul className="flex space-x-4">
                 <li>
-                  <Link href="/" className="text-gray-300 hover:text-white transition-colors duration-200">{t('home')}</Link>
+                  <Link
+                    href="/"
+                    className="text-gray-300 hover:text-white transition-colors duration-200"
+                  >
+                    {t("home")}
+                  </Link>
                 </li>
                 <li>
-                  <Link href="/about" className="text-gray-300 hover:text-white transition-colors duration-200">{t('about')}</Link>
+                  <Link
+                    href="/about"
+                    className="text-gray-300 hover:text-white transition-colors duration-200"
+                  >
+                    {t("about")}
+                  </Link>
+                </li>
+                <li className="relative">
+                  <button
+                    className="flex items-center text-gray-300 hover:text-white transition-colors duration-200"
+                    onClick={handleServicesToggle}
+                  >
+                    <span>{t("services.title")}</span>
+                    <ChevronDown className="ml-1 w-4 h-4" />
+                  </button>
+
+                  <div
+                    className={`absolute left-0 mt-2 w-48 bg-gray-700 rounded-md shadow-lg transition-all duration-200 overflow-hidden ${
+                      isServicesOpen
+                        ? "max-h-screen opacity-100"
+                        : "max-h-0 opacity-0"
+                    }`}
+                  >
+                    <div className="py-1">
+                      <Link
+                        href="/services/page1"
+                        className="block px-4 py-2 text-sm text-gray-300 hover:bg-gray-600 hover:text-white transition-colors duration-200"
+                      >
+                        {t("services.service_title_1")}
+                      </Link>
+                      <Link
+                        href="/services/development"
+                        className="block px-4 py-2 text-sm text-gray-300 hover:bg-gray-600 hover:text-white transition-colors duration-200"
+                      >
+                        {t("services.service_title_2")}
+                      </Link>
+                      <Link
+                        href="/services/cloud"
+                        className="block px-4 py-2 text-sm text-gray-300 hover:bg-gray-600 hover:text-white transition-colors duration-200"
+                      >
+                        {t("services.service_title_3")}
+                      </Link>
+                      <Link
+                        href="/services/security"
+                        className="block px-4 py-2 text-sm text-gray-300 hover:bg-gray-600 hover:text-white transition-colors duration-200"
+                      >
+                        {t("services.service_title_4")}
+                      </Link>
+                      <Link
+                        href="/services/training"
+                        className="block px-4 py-2 text-sm text-gray-300 hover:bg-gray-600 hover:text-white transition-colors duration-200"
+                      >
+                        {t("services.service_title_5")}
+                      </Link>
+                      <Link
+                        href="/services/support"
+                        className="block px-4 py-2 text-sm text-gray-300 hover:bg-gray-600 hover:text-white transition-colors duration-200"
+                      >
+                        {t("services.service_title_6")}
+                      </Link>
+                    </div>
+                  </div>
                 </li>
                 <li>
-                  <Link href="/services" className="text-gray-300 hover:text-white transition-colors duration-200">{t('services')}</Link>
-                </li>
-                <li>
-                  <Link href="/contact" className="text-gray-300 hover:text-white transition-colors duration-200">{t('contact')}</Link>
+                  <Link
+                    href="/contact"
+                    className="text-gray-300 hover:text-white transition-colors duration-200"
+                  >
+                    {t("contact")}
+                  </Link>
                 </li>
               </ul>
 
@@ -72,44 +144,92 @@ const Navbar = () => {
           )}
         </div>
 
-        {/* Mobile Navigation */}
         {isMobile && (
-          <div 
+          <div
             className={`transform transition-all duration-300 ease-in-out overflow-hidden ${
-              isOpen ? 'max-h-64 opacity-100' : 'max-h-0 opacity-0'
+              isOpen ? "max-h-screen opacity-100" : "max-h-0 opacity-0"
             }`}
           >
             <ul className="flex flex-col space-y-2 py-4">
               <li>
-                <Link 
-                  href="/" 
-                  className="block text-gray-300 hover:text-white py-2 transition-all duration-200 hover:translate-x-2"
+                <Link
+                  href="/"
+                  className="block text-gray-300 hover:text-white py-2 transition-all duration-200 hover:translate-x-1"
                 >
-                  {t('home')}
+                  {t("home")}
                 </Link>
               </li>
               <li>
-                <Link 
-                  href="/about" 
-                  className="block text-gray-300 hover:text-white py-2 transition-all duration-200 hover:translate-x-2"
+                <Link
+                  href="/about"
+                  className="block text-gray-300 hover:text-white py-2 transition-all duration-200 hover:translate-x-1"
                 >
-                  {t('about')}
+                  {t("about")}
                 </Link>
               </li>
-              <li>
-                <Link 
-                  href="/services" 
-                  className="block text-gray-300 hover:text-white py-2 transition-all duration-200 hover:translate-x-2"
+              <li className="relative">
+                <button
+                  className="w-full flex items-center justify-between text-gray-300 hover:text-white py-2 transition-all duration-200"
+                  onClick={handleServicesToggle}
                 >
-                  {t('services')}
-                </Link>
+                  <span>{t("services.title")}</span>
+                  <ChevronDown
+                    className={`w-4 h-4 transform transition-transform duration-200 ${
+                      isServicesOpen ? "rotate-180" : ""
+                    }`}
+                  />
+                </button>
+                <div
+                  className={`pl-4 space-y-2 transform transition-all duration-200 overflow-hidden ${
+                    isServicesOpen
+                      ? "max-h-screen opacity-100"
+                      : "max-h-0 opacity-0"
+                  }`}
+                >
+                  <Link
+                    href="/services/consulting"
+                    className="block text-gray-300 hover:text-white py-2 transition-all duration-200 hover:translate-x-1"
+                  >
+                    {t("services.service_title_1")}
+                  </Link>
+                  <Link
+                    href="/services/development"
+                    className="block text-gray-300 hover:text-white py-2 transition-all duration-200 hover:translate-x-1"
+                  >
+                    {t("services.service_title_2")}
+                  </Link>
+                  <Link
+                    href="/services/cloud"
+                    className="block text-gray-300 hover:text-white py-2 transition-all duration-200 hover:translate-x-1"
+                  >
+                    {t("services.service_title_3")}
+                  </Link>
+                  <Link
+                    href="/services/security"
+                    className="block text-gray-300 hover:text-white py-2 transition-all duration-200 hover:translate-x-1"
+                  >
+                    {t("services.service_title_4")}
+                  </Link>
+                  <Link
+                    href="/services/training"
+                    className="block text-gray-300 hover:text-white py-2 transition-all duration-200 hover:translate-x-1"
+                  >
+                    {t("services.service_title_5")}
+                  </Link>
+                  <Link
+                    href="/services/support"
+                    className="block text-gray-300 hover:text-white py-2 transition-all duration-200 hover:translate-x-1"
+                  >
+                    {t("services.service_title_6")}
+                  </Link>
+                </div>
               </li>
               <li>
-                <Link 
-                  href="/contact" 
-                  className="block text-gray-300 hover:text-white py-2 transition-all duration-200 hover:translate-x-2"
+                <Link
+                  href="/contact"
+                  className="block text-gray-300 hover:text-white py-2 transition-all duration-200 hover:translate-x-1"
                 >
-                  {t('contact')}
+                  {t("contact")}
                 </Link>
               </li>
             </ul>
