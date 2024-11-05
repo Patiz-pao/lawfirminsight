@@ -237,6 +237,18 @@ const Navbar = () => {
                 </Link>
               </li>
             </ul>
+            <div className="flex items-center space-x-2 pb-4 pt-2 border-t border-gray-600">
+              <Globe className="w-4 h-4 text-gray-300" />
+              <select
+                value={currentLocale}
+                onChange={(e) => switchLocale(e.target.value)}
+                className="bg-gray-700 text-gray-300 rounded px-2 py-1 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500 transition-colors duration-200"
+              >
+                <option value="th">ไทย</option>
+                <option value="en">English</option>
+                <option value="ch">Chaina</option>
+              </select>
+            </div>
           </div>
         )}
       </div>
