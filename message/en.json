@@ -1,0 +1,20 @@
+{
+    "HomePage": {
+        "title": "Hello world!"
+    },
+    "Navbar": {
+        "title": "INSIGHT LAWFIRM",
+        "home": "Home",
+        "about": "About",
+        "contact": "Contact",
+        "services": {
+            "title": "Services",
+            "service_title_1": "Criminal Cases",
+            "service_title_2": "Civil Cases",
+            "service_title_3": "Tax Cases",
+            "service_title_4": "Special Investigative Cases",
+            "service_title_5": "Inheritance Cases",
+            "service_title_6": "Family Cases"
+        }
+    }
+}

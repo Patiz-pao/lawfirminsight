@@ -1,0 +1,20 @@
+{
+    "HomePage": {
+        "title": "สวัสดี!"
+    },
+    "Navbar": {
+        "title": "INSIGHT LAWFIRM",
+        "home": "หน้าแรก",
+        "about": "เกี่ยวกับเรา",
+        "contact": "ติดต่อเรา",
+        "services": {
+            "title": "บริการของเรา",
+            "service_title_1": "คดีอาญา",
+            "service_title_2": "คดีแพ่ง",
+            "service_title_3": "คดีภาษี",
+            "service_title_4": "คดีสอบสวนพิเศษ",
+            "service_title_5": "คดีมรดก",
+            "service_title_6": "คดีครอบครัว"
+        }
+    }
+}
