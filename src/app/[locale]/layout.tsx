@@ -23,9 +23,10 @@ export default async function LocaleLayout({
       <body>
         <NextIntlClientProvider messages={messages}>
           <Navbar />
-          <div className="mx-auto max-w-[1140px] px-5 lg:px-0 mt-10">
+          {/* <div className="mx-auto max-w-[1140px] px-5 lg:px-0">
             {children}
-          </div>
+          </div> */}
+          {children}
         </NextIntlClientProvider>
       </body>
     </html>

@@ -1,6 +1,11 @@
 {
     "HomePage": {
-        "title": "Hello world!"
+        "title": "INSIGHT LAWFIRM",
+        "descrition": "law office",
+        "descrition_detail": "The law office has been in service for over 10 years, offering comprehensive legal services. It is an organization founded by a group of professional lawyers with extensive and diverse legal experience. Our team includes experts in criminal law, civil and commercial law, intellectual property law, administrative law, family law, tax law, and more. We prioritize dedicated service and strive to ensure customer satisfaction and delight, focusing on providing valuable legal consultation and problem-solving for our clients. This unique management approach has earned us recognition as a legal advisor to various companies, organizations, and government agencies.",
+        "type_law":"Types of Legal Cases",
+        "our_team": "Our Team",
+  "our_team_detail": "We are a team of experienced attorneys with expertise in various areas of law. With a commitment to providing the best service to our clients, our team consists of knowledgeable and skilled lawyers with extensive legal experience. We believe in offering straightforward and high-quality advice to help our clients make confident decisions at every stage of the legal process."
     },
     "Navbar": {
         "title": "INSIGHT LAWFIRM",
