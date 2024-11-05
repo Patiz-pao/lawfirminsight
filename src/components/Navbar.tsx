@@ -15,10 +15,10 @@ const Navbar = (props: Props) => {
             <a href="/about" className="text-gray-300 hover:text-white">About</a>
           </li>
           <li>
-            <a href="/contact" className="text-gray-300 hover:text-white">Contact</a>
+            <a href="/about" className="text-gray-300 hover:text-white">Contact</a>
           </li>
           <li>
-            <a href="/products" className="text-gray-300 hover:text-white">Products</a>
+            <a href="/about" className="text-gray-300 hover:text-white">Products</a>
           </li>
         </ul>
       </div>

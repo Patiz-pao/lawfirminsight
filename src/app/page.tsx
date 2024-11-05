@@ -1,9 +1,9 @@
 import Image from "next/image";
-import { HomePage, AboutPage }  from "@/app/pages";
+import { HomePage, AboutPage }  from "@/app";
 
 export default function Home() {
   return (
-    <div className="mt-10">
+    <div>
       <HomePage />
       <AboutPage />
     </div>
