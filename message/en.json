@@ -1,6 +1,12 @@
 {
     "HomePage": {
-        "title": "Hello world!",
-        "about": "Go to the about page"
+        "title": "Hello world!"
+    },
+    "Navbar": {
+        "title": "INSIGHT LAWFIRM",
+        "home": "Home",
+        "about": "About",
+        "services": "Services",
+        "contact": "Contact"
     }
 }

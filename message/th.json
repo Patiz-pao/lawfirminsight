@@ -1,6 +1,12 @@
 {
     "HomePage": {
-        "title": "สวัสดี!",
-        "about": "ไปยังหน้าเกี่ยวกับฉัน"
+        "title": "สวัสดี!"
+    },
+    "Navbar": {
+        "title": "INSIGHT LAWFIRM",
+        "home": "หน้าแรก",
+        "about": "เกี่ยวกับเรา",
+        "services": "บริการของเรา",
+        "contact": "ติดต่อเรา"
     }
 }
