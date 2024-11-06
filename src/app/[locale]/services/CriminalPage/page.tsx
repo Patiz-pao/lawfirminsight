@@ -178,7 +178,7 @@ const Criminal = () => {
             <div className="space-y-6">
               {criminalTypes.map((type, index) => (
                 <div key={index} className="bg-white p-6 rounded-xl shadow-lg">
-                  <div className="flex items-start space-x-4">
+                  <div className="sm:flex items-start sm:space-x-4">
                     <AlertTriangle className="w-6 h-6 text-red-500 mt-1" />
                     <div>
                       <h2 className="text-xl font-bold text-gray-800 mb-2">

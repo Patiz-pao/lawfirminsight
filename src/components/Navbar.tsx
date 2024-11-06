@@ -191,7 +191,7 @@ const Navbar = () => {
                   }`}
                 >
                   <Link
-                    href="/services/page1"
+                    href="/services/CriminalPage"
                     className="block text-gray-300 hover:text-white transition-colors duration-200 mt-2"
                   >
                     {t("services.service_title_1")}

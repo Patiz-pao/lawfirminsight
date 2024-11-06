@@ -15,7 +15,7 @@ const Footer = () => {
 
         <div className="hidden sm:flex flex-col sm:flex-row gap-5 items-center sm:justify-center space-y-2 sm:space-y-0 lg:space-x-5">
           <Link
-            href="/"
+            href="/services/CriminalPage"
             className="text-gray-300 hover:text-white transition-colors duration-200 block lg:inline"
           >
             {t("services.service_title_1")}
