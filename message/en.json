@@ -2,7 +2,7 @@
     "HomePage": {
         "title": "INSIGHT LAWFIRM",
         "descrition": "law office",
-        "descrition_detail": "The law office has been in service for over 10 years, offering comprehensive legal services. It is an organization founded by a group of professional lawyers with extensive and diverse legal experience. Our team includes experts in criminal law, civil and commercial law, intellectual property law, administrative law, family law, tax law, and more. We prioritize dedicated service and strive to ensure customer satisfaction and delight, focusing on providing valuable legal consultation and problem-solving for our clients. This unique management approach has earned us recognition as a legal advisor to various companies, organizations, and government agencies.",
+        "descrition_detail": "The law office has been in service for over 30 years, offering comprehensive legal services. It is an organization founded by a group of professional lawyers with extensive and diverse legal experience. Our team includes experts in criminal law, civil and commercial law, intellectual property law, administrative law, family law, tax law, and more. We prioritize dedicated service and strive to ensure customer satisfaction and delight, focusing on providing valuable legal consultation and problem-solving for our clients. This unique management approach has earned us recognition as a legal advisor to various companies, organizations, and government agencies.",
         "type_law": "Types of Legal Cases",
         "our_team": "Our Team",
         "our_team_detail": "We are a team of experienced attorneys with expertise in various areas of law. With a commitment to providing the best service to our clients, our team consists of knowledgeable and skilled lawyers with extensive legal experience. We believe in offering straightforward and high-quality advice to help our clients make confident decisions at every stage of the legal process.",
@@ -14,6 +14,17 @@
             "phone": "02-123-4567",
             "email": "contact@example.com",
             "hours": "Mon - Fri: 9:00 AM - 5:00 PM"
+        }
+    },
+    "AboutPage": {
+        "title": "INSIGHT LAWFIRM",
+        "title_detail": "Committed to Excellence in Legal Services",
+        "our_history": {
+            "title": "Our History",
+            "indent_1": "Our firm was founded in 1992 by a group of visionary and experienced lawyers. We are committed to building a law office that not only provides comprehensive legal services but also emphasizes professionalism. We strive to raise our service standards to be recognized internationally, meeting the diverse needs of clients in every sector.",
+            "indent_2": "Over the past 30 years, we have devoted ourselves to developing the capabilities of our legal team, particularly in building expertise across various fields of law, both domestically and internationally. This ensures that our clients receive accurate and up-to-date advice. We also prioritize privacy and place great importance on protecting our clients' interests.",
+            "indent_3": "We have had the opportunity to serve a wide range of clients, including government agencies, private entities, multinational corporations, and individuals. All of our clients receive high-quality, standard services, and we are prepared to address legal issues and provide in-depth consultations, allowing clients to plan and make decisions with confidence.",
+            "indent_4": "We are proud of the trust clients have placed in us over the years, and we are ready to continue our stable growth. We are committed to improving our organization and services to build confidence as a comprehensive law firm and as a reliable partner in every aspect of law for our clients."
         }
     },
     "Navbar": {

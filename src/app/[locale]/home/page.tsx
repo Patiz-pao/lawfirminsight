@@ -40,9 +40,9 @@ const home = () => {
             alt=""
             className="w-full max-w-[500px] h-auto mx-auto lg:w-auto lg:h-[400px]"
           />
-          <div className="space-y-3">
-            <h1 className="text-2xl font-bold text-left">{t("title")}</h1>
-            <div className="border-t border-black mb-5 mt-3"></div>
+          <div className="space-y-3 text-gray-600">
+            <h1 className="text-2xl font-bold text-left text-gray-900">{t("title")}</h1>
+            <div className="border-t border-gray-600 mb-5 mt-3"></div>
             <p className="text-lg text-left">{t("descrition_detail")}</p>
           </div>
         </div>
@@ -138,13 +138,13 @@ const home = () => {
       <div className="mx-auto max-w-[1140px] px-5 lg:px-0 ">
       <div className="text-center my-10">
         <h1 className="text-4xl font-bold my-5 text-[#152F91]">{t('contact')}</h1>
-        <p className="text-xl">{t('contact_detail')}</p>
+        <p className="text-xl text-gray-600">{t('contact_detail')}</p>
       </div>
       <div className="flex flex-col lg:flex-row">
-        <div className="flex-1">
+        <div className="flex-1 text-gray-600">
           {locations.map((location) => (
             <div key={location.id} className="mb-8 p-4 space-y-5">
-              <h2 className="text-2xl font-semibold flex items-center mb-2">
+              <h2 className="text-2xl font-semibold flex items-center mb-2 text-black">
                 <MapPin className="mr-2 text-[#152F91]" />
                 {location.name}
               </h2>
