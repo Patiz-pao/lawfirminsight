@@ -6,7 +6,7 @@ const Footer = () => {
   const t = useTranslations("Navbar");
   return (
     <footer className="bg-gray-800 text-white py-6">
-      <div className="max-w-[1140px] mx-auto px-5 lg:px-0 text-center space-y-4">
+      <div className="container mx-auto px-5 lg:px-0 text-center space-y-4">
         <div className="text-center mb-4">
           <h2 className="text-2xl font-bold text-center">{t("title")}</h2>
         </div>
@@ -21,7 +21,7 @@ const Footer = () => {
             {t("services.service_title_1")}
           </Link>
           <Link
-            href="/about"
+            href="/services/CivilPage"
             className="text-gray-300 hover:text-white transition-colors duration-200 block lg:inline"
           >
             {t("services.service_title_2")}

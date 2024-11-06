@@ -30,7 +30,7 @@ const Navbar = () => {
 
   return (
     <nav className="bg-gray-800 relative z-50">
-      <div className="container mx-auto max-w-[1140px] px-5 py-3 lg:px-0 lg:p-0">
+      <div className="container mx-auto px-5 py-3 lg:px-0 lg:p-0">
         <div className="h-16 flex justify-between items-center">
           <div className="text-white text-xl font-bold">{t("title")}</div>
 
@@ -90,13 +90,13 @@ const Navbar = () => {
                         {t("services.service_title_1")}
                       </Link>
                       <Link
-                        href="/services/development"
+                        href="/services/CivilPage"
                         className="block px-4 py-2 text-sm text-gray-300 hover:bg-gray-600 hover:text-white transition-colors duration-200"
                       >
                         {t("services.service_title_2")}
                       </Link>
                       <Link
-                        href="/services/cloud"
+                        href="/services/TaxPage"
                         className="block px-4 py-2 text-sm text-gray-300 hover:bg-gray-600 hover:text-white transition-colors duration-200"
                       >
                         {t("services.service_title_3")}
@@ -197,13 +197,13 @@ const Navbar = () => {
                     {t("services.service_title_1")}
                   </Link>
                   <Link
-                    href="/services/development"
+                    href="/services/CivilPage"
                     className="block text-gray-300 hover:text-white transition-colors duration-200 mt-2"
                   >
                     {t("services.service_title_2")}
                   </Link>
                   <Link
-                    href="/services/cloud"
+                    href="/services/TaxPage"
                     className="block text-gray-300 hover:text-white transition-colors duration-200 mt-2"
                   >
                     {t("services.service_title_3")}

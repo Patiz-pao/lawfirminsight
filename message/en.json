@@ -190,6 +190,152 @@
             "description": "The court examines the evidence and renders a judgment."
         }
     },
+    "CivilPage": {
+        "title": "Civil Cases",
+        "title_detail": "Basic knowledge about civil cases, types of offenses, punishments, and legal procedures",
+        "title_detail_tab_1": "Overview of Civil Cases",
+        "title_detail_tab_2": "Types of Offenses",
+        "title_detail_tab_3": "Legal Procedures",
+        "tab_overview": {
+            "title": "What is a Civil Case?",
+            "detail": "A Civil Case is a case involving disputes between individuals or organizations regarding rights and obligations, such as claims for property or violations of rights, without being related to criminal offenses.",
+            "subtitle_detail": "Key Characteristics of Civil Cases",
+            "subtitle_detail_1": "Disputes between individuals or organizations regarding rights and obligations",
+            "subtitle_detail_2": "No criminal penalties, focusing on compensating damages",
+            "subtitle_detail_3": "Remedies involve compensation or compliance with claims"
+        },
+        "subtab_overview": {
+            "title": "Penalties in Civil Cases",
+            "result_title_1": "Compensation for Damages",
+            "result_description_1": "Compensation in the form of money or property to the harmed party",
+            "result_title_2": "Enforcement of Contracts",
+            "result_description_2": "An order for the parties to comply with the contract or its terms",
+            "result_title_3": "Return of Property",
+            "result_description_3": "Returning property that was seized or harmed by wrongful acts",
+            "result_title_4": "Injunctions",
+            "result_description_4": "A prohibition on certain actions, such as preventing the violation of rights"
+        },
+        "tab_type": {
+            "title_1": "Penalties",
+            "title_2": "Examples of Offenses"
+        },
+        "tab_procedure": {
+            "title": "Procedure in Civil Cases",
+            "subtitle": "Statute of Limitations in Civil Cases",
+            "topic_1": "Serious Offenses",
+            "topic_detail_1_1": "• Disputes regarding property or contracts: 10 years",
+            "topic_detail_1_2": "• Damages from violation of rights: 5 years",
+            "topic_2": "General Offenses",
+            "topic_detail_2_1": "• Breach of contract or failure to comply with agreements: 2 years",
+            "topic_detail_2_2": "• Minor offenses: 1 year"
+        },
+        "civilTypes": {
+            "title": "Property-related Cases",
+            "description": "Cases involving claims to property rights, such as lawsuits for the return of property or claims for damages due to violation of rights",
+            "punishment": "Compensation for damages or return of property as ordered by the court",
+            "examples": "Lawsuits for the return of seized property, lawsuits for compensation from breach of contract"
+        },
+        "civilTypes_2": {
+            "title": "Contract-related Cases",
+            "description": "Cases involving breach of contract or failure to comply with agreed terms",
+            "punishment": "Enforcement of contract terms or compensation for damages according to the contract",
+            "examples": "Lawsuits to enforce contract terms, lawsuits for damages due to non-compliance with contracts"
+        },
+        "civilTypes_3": {
+            "title": "Rights Violation Cases",
+            "description": "Cases arising from violations of personal or property rights, such as defamation or copyright infringement",
+            "punishment": "Compensation for damages or cessation of rights violations",
+            "examples": "Lawsuits for intellectual property violations, defamation lawsuits"
+        },
+        "procedures_1": {
+            "title": "Filing a Lawsuit",
+            "description": "The injured party files a lawsuit in court to claim rights or damages"
+        },
+        "procedures_2": {
+            "title": "Investigation and Gathering of Evidence",
+            "description": "Both parties gather evidence to support claims or to deny allegations"
+        },
+        "procedures_3": {
+            "title": "Negotiation and Mediation",
+            "description": "Consideration of negotiation or mediation to resolve the dispute without litigation"
+        },
+        "procedures_4": {
+            "title": "Case Hearing",
+            "description": "The court reviews evidence and makes a judgment based on the law"
+        }
+    },
+    "TaxPage": {
+        "title": "Tax Cases",
+        "title_detail": "Introduction to Tax Cases, Types of Offenses, Penalties, and Legal Procedures",
+        "title_detail_tab_1": "Overview of Tax Cases",
+        "title_detail_tab_2": "Types of Offenses",
+        "title_detail_tab_3": "Legal Procedures",
+        "tab_overview": {
+            "title": "What is a Tax Case?",
+            "detail": "A tax case involves issues related to tax evasion or non-payment of taxes as required by law, including cases of intentional tax evasion or failure to provide proof of tax payment.",
+            "subtitle_detail": "Key Characteristics of Tax Cases",
+            "subtitle_detail_1": "Involves compliance with tax law",
+            "subtitle_detail_2": "May involve tax evasion or concealment of information",
+            "subtitle_detail_3": "Carries financial penalties or imprisonment"
+        },
+        "subtab_overview": {
+            "title": "Tax Penalties",
+            "result_title_1": "Fines",
+            "result_description_1": "Payment of fines according to the rates prescribed by law",
+            "result_title_2": "Imprisonment",
+            "result_description_2": "Imprisonment as ordered by the court in cases of severe tax violations",
+            "result_title_3": "Tax Payment Recovery",
+            "result_description_3": "Order to pay back taxes or fines as per the court's ruling"
+        },
+        "tab_type": {
+            "title_1": "Penalties",
+            "title_2": "Examples of Offenses"
+        },
+        "tab_procedure": {
+            "title": "Tax Case Legal Procedures",
+            "subtitle": "Statute of Limitations in Tax Cases",
+            "topic_1": "Serious Offenses",
+            "topic_detail_1_1": "• Tax evasion involving large amounts: 10 years",
+            "topic_detail_1_2": "• Concealment of income or assets: 5 years",
+            "topic_2": "Common Offenses",
+            "topic_detail_2_1": "• Filing incorrect tax returns: 5 years",
+            "topic_detail_2_2": "• Failure to file tax returns: 3 years"
+        },
+        "taxTypes": {
+            "title": "Tax Evasion",
+            "description": "Offenses related to tax evasion or failure to file accurate tax returns",
+            "punishment": "Fines or imprisonment as prescribed by law",
+            "examples": "Tax evasion on income, concealment of business income"
+        },
+        "taxTypes_2": {
+            "title": "Concealing Tax Information",
+            "description": "Failure to disclose accurate information on tax documents or providing false information",
+            "punishment": "Fines for unpaid taxes or imprisonment",
+            "examples": "Concealing business income, providing false information about income or assets"
+        },
+        "taxTypes_3": {
+            "title": "Filing Incorrect Tax Returns",
+            "description": "Filing incorrect or incomplete tax returns, such as incorrect data entry or miscalculating taxes",
+            "punishment": "Fines or correction of tax filings",
+            "examples": "Incorrect tax data entry, filing incorrect types of tax returns"
+        },
+        "procedures_1": {
+            "title": "Tax Inspection",
+            "description": "Tax officials review the tax payment information of individuals or businesses"
+        },
+        "procedures_2": {
+            "title": "Filing a Tax Case",
+            "description": "Tax authorities file a lawsuit in court if tax violations are found"
+        },
+        "procedures_3": {
+            "title": "Negotiation or Mediation",
+            "description": "Negotiation or mediation between tax authorities and taxpayers to resolve tax violations"
+        },
+        "procedures_4": {
+            "title": "Court Review",
+            "description": "The court reviews the case and imposes penalties according to tax laws"
+        }
+    },
     "Navbar": {
         "title": "INSIGHT LAWFIRM",
         "home": "Home",
