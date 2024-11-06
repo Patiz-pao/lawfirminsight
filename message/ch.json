@@ -14,6 +14,32 @@
             "phone": "02-123-4567",
             "email": "contact@example.com",
             "hours": "周一 - 周五: 9:00 AM - 5:00 PM"
+        },
+        "person_info": {
+            "person_1": {
+                "name": "Mr. Somchai Jaidee",
+                "position": "高级首席律师",
+                "expert": "专长: 商业与国际贸易法",
+                "experience": "经验: 25年"
+            },
+            "person_2": {
+                "name": "Ms. Suda Rak-Khwamyuttitham",
+                "position": "合伙律师",
+                "expert": "专长: 民法与商业法",
+                "experience": "经验: 15年"
+            },
+            "person_3": {
+                "name": "Mr. Wichai Khwamtingtham",
+                "position": "咨询律师",
+                "expert": "专长: 刑法和一般案件",
+                "experience": "经验: 20年"
+            },
+            "person_4": {
+                "name": "Mr. Somrak Jitjaisa-at",
+                "position": "普通律师",
+                "expert": "专长: 刑法和一般案件",
+                "experience": "经验: 10年"
+            }
         }
     },
     "AboutPage": {
@@ -25,6 +51,32 @@
             "indent_2": "在过去的30年中，我们专注于提升律师团队的能力，特别是在国内和国际各个法律领域的专业知识，以确保客户能够获得准确和最新的建议。我们还重视隐私，并以保护客户利益为首要任务。",
             "indent_3": "我们有幸为各种客户提供服务，包括政府机构、私营企业、跨国公司和个人。所有客户都能获得高质量、标准化的服务，我们准备好解决法律问题并提供深入的咨询，使客户能够自信地规划和决策。",
             "indent_4": "我们为多年来客户对我们的信任感到自豪，并准备继续稳定地成长。我们致力于改进我们的组织和服务，以建立信任，成为一个综合性律师事务所，并成为客户在法律各方面可以依赖的重要合作伙伴。"
+        },
+        "person_info": {
+            "person_1": {
+                "name": "Mr. Somchai Jaidee",
+                "position": "高级首席律师",
+                "expert": "专长: 商业与国际贸易法",
+                "experience": "经验: 25年"
+            },
+            "person_2": {
+                "name": "Ms. Suda Rak-Khwamyuttitham",
+                "position": "合伙律师",
+                "expert": "专长: 民法与商业法",
+                "experience": "经验: 15年"
+            },
+            "person_3": {
+                "name": "Mr. Wichai Khwamtingtham",
+                "position": "咨询律师",
+                "expert": "专长: 刑法和一般案件",
+                "experience": "经验: 20年"
+            },
+            "person_4": {
+                "name": "Mr. Somrak Jitjaisa-at",
+                "position": "普通律师",
+                "expert": "专长: 刑法和一般案件",
+                "experience": "经验: 10年"
+            }
         }
     },
     "Navbar": {

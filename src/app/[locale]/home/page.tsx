@@ -9,11 +9,11 @@ const home = () => {
   const locations = [
     {
       id: 1,
-      name: t('location.name'),
-      address: t('location.address'),
-      phone: t('location.phone'),
-      email: t('location.email'),
-      hours: t('location.hours'),
+      name: t("location.name"),
+      address: t("location.address"),
+      phone: t("location.phone"),
+      email: t("location.email"),
+      hours: t("location.hours"),
     },
   ];
 
@@ -41,7 +41,9 @@ const home = () => {
             className="w-full max-w-[500px] h-auto mx-auto lg:w-auto lg:h-[400px]"
           />
           <div className="space-y-3 text-gray-600">
-            <h1 className="text-2xl font-bold text-left text-gray-900">{t("title")}</h1>
+            <h1 className="text-2xl font-bold text-left text-gray-900">
+              {t("title")}
+            </h1>
             <div className="border-t border-gray-600 mb-5 mt-3"></div>
             <p className="text-lg text-left">{t("descrition_detail")}</p>
           </div>
@@ -72,10 +74,10 @@ const home = () => {
                   ></img>
                   <div>
                     <h3 className="text-base/7 font-semibold tracking-tight text-gray-900">
-                      Mr.AAA
+                      {t("person_info.person_1.name")}
                     </h3>
                     <p className="text-sm/6 font-semibold text-indigo-600">
-                      Co-Founder / CEO
+                      {t("person_info.person_1.position")}
                     </p>
                   </div>
                 </div>
@@ -89,10 +91,10 @@ const home = () => {
                   ></img>
                   <div>
                     <h3 className="text-base/7 font-semibold tracking-tight text-gray-900">
-                      Mr.BBB
+                      {t("person_info.person_2.name")}
                     </h3>
                     <p className="text-sm/6 font-semibold text-indigo-600">
-                      Co-Founder / CEO
+                      {t("person_info.person_2.position")}
                     </p>
                   </div>
                 </div>
@@ -106,10 +108,10 @@ const home = () => {
                   ></img>
                   <div>
                     <h3 className="text-base/7 font-semibold tracking-tight text-gray-900">
-                      Mr.CCC
+                      {t("person_info.person_3.name")}
                     </h3>
                     <p className="text-sm/6 font-semibold text-indigo-600">
-                      Co-Founder / CEO
+                      {t("person_info.person_3.position")}
                     </p>
                   </div>
                 </div>
@@ -123,10 +125,10 @@ const home = () => {
                   ></img>
                   <div>
                     <h3 className="text-base/7 font-semibold tracking-tight text-gray-900">
-                      Mr.DDD
+                      {t("person_info.person_4.name")}
                     </h3>
                     <p className="text-sm/6 font-semibold text-indigo-600">
-                      Co-Founder / CEO
+                      {t("person_info.person_4.position")}
                     </p>
                   </div>
                 </div>
@@ -136,47 +138,49 @@ const home = () => {
         </div>
       </div>
       <div className="mx-auto max-w-[1140px] px-5 lg:px-0 ">
-      <div className="text-center my-10">
-        <h1 className="text-4xl font-bold my-5 text-[#152F91]">{t('contact')}</h1>
-        <p className="text-xl text-gray-600">{t('contact_detail')}</p>
-      </div>
-      <div className="flex flex-col lg:flex-row">
-        <div className="flex-1 text-gray-600">
-          {locations.map((location) => (
-            <div key={location.id} className="mb-8 p-4 space-y-5">
-              <h2 className="text-2xl font-semibold flex items-center mb-2 text-black">
-                <MapPin className="mr-2 text-[#152F91]" />
-                {location.name}
-              </h2>
-              <p className="text-lg mb-1">{location.address}</p>
-              <div className="flex items-center text-lg mb-1">
-                <Phone className="mr-2 text-[#152F91]" />
-                <span>{location.phone}</span>
-              </div>
-              <div className="flex items-center text-lg mb-1">
-                <Mail className="mr-2 text-[#152F91]" />
-                <span>{location.email}</span>
-              </div>
-              <div className="flex items-center text-lg">
-                <Clock className="mr-2 text-[#152F91]" />
-                <span>{location.hours}</span>
-              </div>
-            </div>
-          ))}
+        <div className="text-center my-10">
+          <h1 className="text-4xl font-bold my-5 text-[#152F91]">
+            {t("contact")}
+          </h1>
+          <p className="text-xl text-gray-600">{t("contact_detail")}</p>
         </div>
-        <div className="flex-1 p-4">
-          <div className="w-full h-64 bg-gray-200 rounded-lg">
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d387190.2799015259!2d100.53213599884398!3d13.756330226021903!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30e29fbb61a42f45%3A0x2e885ae94ec4823a!2z4LmA4LiI4LiB4Liy4Lij4LmM4LiX4Liw4Lii4LiZ4LiH4LiU4Lix4Lil4LiB4LiU4Li54LiU4Lil4LiX4Lih4Li04LiU4LiU!5e0!3m2!1sth!2sth!4v1631724010326!5m2!1sth!2sth"
-              width="100%"
-              height="100%"
-              style={{ border: 0 }}
-              loading="lazy"
-            ></iframe>
+        <div className="flex flex-col lg:flex-row">
+          <div className="flex-1 text-gray-600">
+            {locations.map((location) => (
+              <div key={location.id} className="mb-8 p-4 space-y-5">
+                <h2 className="text-2xl font-semibold flex items-center mb-2 text-black">
+                  <MapPin className="mr-2 text-[#152F91]" />
+                  {location.name}
+                </h2>
+                <p className="text-lg mb-1">{location.address}</p>
+                <div className="flex items-center text-lg mb-1">
+                  <Phone className="mr-2 text-[#152F91]" />
+                  <span>{location.phone}</span>
+                </div>
+                <div className="flex items-center text-lg mb-1">
+                  <Mail className="mr-2 text-[#152F91]" />
+                  <span>{location.email}</span>
+                </div>
+                <div className="flex items-center text-lg">
+                  <Clock className="mr-2 text-[#152F91]" />
+                  <span>{location.hours}</span>
+                </div>
+              </div>
+            ))}
+          </div>
+          <div className="flex-1 p-4">
+            <div className="w-full h-64 bg-gray-200 rounded-lg">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d387190.2799015259!2d100.53213599884398!3d13.756330226021903!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30e29fbb61a42f45%3A0x2e885ae94ec4823a!2z4LmA4LiI4LiB4Liy4Lij4LmM4LiX4Liw4Lii4LiZ4LiH4LiU4Lix4Lil4LiB4LiU4Li54LiU4Lil4LiX4Lih4Li04LiU4LiU!5e0!3m2!1sth!2sth!4v1631724010326!5m2!1sth!2sth"
+                width="100%"
+                height="100%"
+                style={{ border: 0 }}
+                loading="lazy"
+              ></iframe>
+            </div>
           </div>
         </div>
       </div>
-    </div>
     </div>
   );
 };

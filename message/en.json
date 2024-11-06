@@ -14,6 +14,32 @@
             "phone": "02-123-4567",
             "email": "contact@example.com",
             "hours": "Mon - Fri: 9:00 AM - 5:00 PM"
+        },
+        "person_info": {
+            "person_1": {
+                "name": "Mr. Somchai Jaidee",
+                "position": "Senior Chief Attorney",
+                "expert": "Expertise: Business and International Trade Law",
+                "experience": "Experience: 25 years"
+            },
+            "person_2": {
+                "name": "Ms. Suda Rak-Khwamyuttitham",
+                "position": "Partner Attorney",
+                "expert": "Expertise: Civil and Commercial Law",
+                "experience": "Experience: 15 years"
+            },
+            "person_3": {
+                "name": "Mr. Wichai Khwamtingtham",
+                "position": "Consulting Attorney",
+                "expert": "Expertise: Criminal Law and General Cases",
+                "experience": "Experience: 20 years"
+            },
+            "person_4": {
+                "name": "Mr. Somrak Jitjaisa-at",
+                "position": "General Attorney",
+                "expert": "Expertise: Criminal Law and General Cases",
+                "experience": "Experience: 10 years"
+            }
         }
     },
     "AboutPage": {
@@ -25,6 +51,32 @@
             "indent_2": "Over the past 30 years, we have devoted ourselves to developing the capabilities of our legal team, particularly in building expertise across various fields of law, both domestically and internationally. This ensures that our clients receive accurate and up-to-date advice. We also prioritize privacy and place great importance on protecting our clients' interests.",
             "indent_3": "We have had the opportunity to serve a wide range of clients, including government agencies, private entities, multinational corporations, and individuals. All of our clients receive high-quality, standard services, and we are prepared to address legal issues and provide in-depth consultations, allowing clients to plan and make decisions with confidence.",
             "indent_4": "We are proud of the trust clients have placed in us over the years, and we are ready to continue our stable growth. We are committed to improving our organization and services to build confidence as a comprehensive law firm and as a reliable partner in every aspect of law for our clients."
+        },
+        "person_info": {
+            "person_1": {
+                "name": "Mr. Somchai Jaidee",
+                "position": "Senior Chief Attorney",
+                "expert": "Expertise: Business and International Trade Law",
+                "experience": "Experience: 25 years"
+            },
+            "person_2": {
+                "name": "Ms. Suda Rak-Khwamyuttitham",
+                "position": "Partner Attorney",
+                "expert": "Expertise: Civil and Commercial Law",
+                "experience": "Experience: 15 years"
+            },
+            "person_3": {
+                "name": "Mr. Wichai Khwamtingtham",
+                "position": "Consulting Attorney",
+                "expert": "Expertise: Criminal Law and General Cases",
+                "experience": "Experience: 20 years"
+            },
+            "person_4": {
+                "name": "Mr. Somrak Jitjaisa-at",
+                "position": "General Attorney",
+                "expert": "Expertise: Criminal Law and General Cases",
+                "experience": "Experience: 10 years"
+            }
         }
     },
     "Navbar": {
