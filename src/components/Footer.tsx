@@ -27,7 +27,7 @@ const Footer = () => {
             {t("services.service_title_2")}
           </Link>
           <Link
-            href="/products"
+            href="/services/SpecialInvestigativePage"
             className="text-gray-300 hover:text-white transition-colors duration-200 block lg:inline"
           >
             {t("services.service_title_3")}

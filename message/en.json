@@ -336,6 +336,78 @@
             "description": "The court reviews the case and imposes penalties according to tax laws"
         }
     },
+    "SpecialInvestigationPage": {
+        "title": "Special Investigation Cases",
+        "title_detail": "Basic knowledge about special investigation cases, types of crimes, punishments, and legal procedures",
+        "title_detail_tab_1": "Overview of Special Investigation Cases",
+        "title_detail_tab_2": "Types of Crimes",
+        "title_detail_tab_3": "Legal Procedures",
+        "tab_overview": {
+            "title": "What are Special Investigation Cases?",
+            "detail": "Special investigation cases involve crimes that are harmful to public safety or national security, such as financial fraud, money laundering, human trafficking, or terrorism.",
+            "subtitle_detail": "Key Characteristics of Special Investigation Cases",
+            "subtitle_detail_1": "Involves crimes that affect public security or national security",
+            "subtitle_detail_2": "Special investigators have special powers to investigate the cases",
+            "subtitle_detail_3": "Can take action under special laws to protect the public interest"
+        },
+        "subtab_overview": {
+            "title": "Punishments in Special Investigation Cases",
+            "result_title_1": "Imprisonment",
+            "result_description_1": "Sentencing based on the severity of the crime",
+            "result_title_2": "Fines",
+            "result_description_2": "Fines determined by the court as financial punishment",
+            "result_title_3": "Asset Seizure",
+            "result_description_3": "Seizing assets obtained from illegal activities"
+        },
+        "tab_type": {
+            "title_1": "Punishments",
+            "title_2": "Examples of Crimes"
+        },
+        "tab_procedure": {
+            "title": "Legal Procedures in Special Investigation Cases",
+            "subtitle": "The process of legal proceedings in special investigation cases",
+            "topic_1": "Serious Crimes",
+            "topic_detail_1_1": "• Corruption in government or agencies: 10-20 years",
+            "topic_detail_1_2": "• Money laundering or human trafficking: 15 years",
+            "topic_2": "Common Crimes",
+            "topic_detail_2_1": "• Tax fraud or improper tax filings: 5-10 years",
+            "topic_detail_2_2": "• Bribery: 5-10 years"
+        },
+        "specialInvestigationTypes": {
+            "title": "Financial Corruption",
+            "description": "Crimes related to financial fraud or deceit, such as fraud or covering up corruption",
+            "punishment": "Imprisonment or fines as determined by the court",
+            "examples": "Embezzlement of company funds, corruption in government agencies"
+        },
+        "specialInvestigationTypes_2": {
+            "title": "Money Laundering",
+            "description": "Money laundering is the process of making money obtained from criminal activities appear as though it is earned legally",
+            "punishment": "Imprisonment and fines as determined by the court",
+            "examples": "Transferring money from illegal sources to banks to conceal the origin of the funds"
+        },
+        "specialInvestigationTypes_3": {
+            "title": "Human Trafficking",
+            "description": "Human trafficking is forcing individuals to work or engage in abusive acts in an illegal manner",
+            "punishment": "Long-term imprisonment and fines as required by law",
+            "examples": "Trafficking people for prostitution, forced labor"
+        },
+        "procedures_1": {
+            "title": "Investigation of Special Investigation Cases",
+            "description": "Special investigators gather evidence and conduct investigations to prove criminal activity"
+        },
+        "procedures_2": {
+            "title": "Filing Special Investigation Cases",
+            "description": "Prosecutors file a case in court to take legal action against the offenders"
+        },
+        "procedures_3": {
+            "title": "Negotiation or Mediation",
+            "description": "Negotiations or mediation may be conducted to resolve any disputes related to the criminal activity"
+        },
+        "procedures_4": {
+            "title": "Case Trial",
+            "description": "The court proceeds with trial and judgment based on the laws relevant to special investigation cases"
+        }
+    },
     "Navbar": {
         "title": "INSIGHT LAWFIRM",
         "home": "Home",

@@ -336,6 +336,78 @@
             "description": "法院审理案件并根据税法作出判决"
         }
     },
+    "SpecialInvestigationPage": {
+        "title": "特别调查案件",
+        "title_detail": "关于特别调查案件的基础知识、犯罪类型、处罚和法律程序",
+        "title_detail_tab_1": "特别调查案件概述",
+        "title_detail_tab_2": "犯罪类型",
+        "title_detail_tab_3": "法律程序",
+        "tab_overview": {
+            "title": "什么是特别调查案件？",
+            "detail": "特别调查案件涉及那些危害公共安全或国家安全的犯罪行为，例如金融欺诈、洗钱、人口贩卖或恐怖主义。",
+            "subtitle_detail": "特别调查案件的关键特征",
+            "subtitle_detail_1": "涉及对公共安全或国家安全的犯罪行为",
+            "subtitle_detail_2": "特别调查人员有权执行特别调查权力",
+            "subtitle_detail_3": "可以根据特别法律采取行动以保护公共利益"
+        },
+        "subtab_overview": {
+            "title": "特别调查案件的处罚",
+            "result_title_1": "监禁",
+            "result_description_1": "根据犯罪的严重性判处监禁",
+            "result_title_2": "罚款",
+            "result_description_2": "根据法院裁定的金额判处罚款",
+            "result_title_3": "没收财产",
+            "result_description_3": "没收通过犯罪行为获得的财产"
+        },
+        "tab_type": {
+            "title_1": "处罚",
+            "title_2": "犯罪示例"
+        },
+        "tab_procedure": {
+            "title": "特别调查案件的法律程序",
+            "subtitle": "特别调查案件的诉讼程序",
+            "topic_1": "严重犯罪",
+            "topic_detail_1_1": "• 政府或机构的腐败：10-20年",
+            "topic_detail_1_2": "• 洗钱或人口贩卖：15年",
+            "topic_2": "一般犯罪",
+            "topic_detail_2_1": "• 税务欺诈或不正当税务：5-10年",
+            "topic_detail_2_2": "• 贪污：5-10年"
+        },
+        "specialInvestigationTypes": {
+            "title": "金融腐败",
+            "description": "与金融腐败或金融欺诈行为有关的犯罪，例如诈骗或掩盖腐败行为",
+            "punishment": "监禁或法院裁定的罚款",
+            "examples": "挪用公司资金，政府机构中的腐败"
+        },
+        "specialInvestigationTypes_2": {
+            "title": "洗钱",
+            "description": "洗钱是将通过非法行为获得的资金转变为看似合法的收入",
+            "punishment": "监禁和法院裁定的罚款",
+            "examples": "将不正当来源的资金转移到银行以隐藏资金来源"
+        },
+        "specialInvestigationTypes_3": {
+            "title": "人口贩卖",
+            "description": "人口贩卖是指强迫个人从事非法劳动或遭受虐待",
+            "punishment": "长期监禁和根据法律判定的罚款",
+            "examples": "将人贩卖为性交易，强迫劳动"
+        },
+        "procedures_1": {
+            "title": "特别调查案件的调查",
+            "description": "特别调查人员收集证据并进行调查，以证明犯罪行为"
+        },
+        "procedures_2": {
+            "title": "提起特别调查案件诉讼",
+            "description": "检察官向法院提起诉讼，以对犯罪嫌疑人采取法律行动"
+        },
+        "procedures_3": {
+            "title": "谈判或调解",
+            "description": "如果存在争议，进行谈判或调解以达成解决方案"
+        },
+        "procedures_4": {
+            "title": "审理案件",
+            "description": "法院审理案件并根据相关法律对特别调查案件作出判决"
+        }
+    },
     "Navbar": {
         "title": "INSIGHT LAWFIRM",
         "home": "主页",
