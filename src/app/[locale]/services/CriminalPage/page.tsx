@@ -1,13 +1,14 @@
 "use client";
-import React, { useState } from "react";
+import React from "react";
 import { criminal } from "../../../../../public/images";
 import { useTranslations } from "next-intl";
 import { Shield, AlertTriangle, Gavel, Scale, Clock } from "lucide-react";
+import { useActiveTab } from "@/hooks/useActiveTab";
 
 const Criminal = () => {
   const t = useTranslations("CriminalPage");
 
-  const [activeTab, setActiveTab] = useState("overview");
+  const {activeTab, changeTab} = useActiveTab("overview");
 
   const criminalTypes = [
     {
@@ -68,7 +69,7 @@ const Criminal = () => {
       <div className="container mx-auto px-4 mt-8">
         <div className="flex space-x-4 border-b">
           <button
-            onClick={() => setActiveTab("overview")}
+            onClick={() => changeTab("overview")}
             className={`px-4 py-2 font-medium transition-colors ${
               activeTab === "overview"
                 ? "border-b-2 border-blue-900 text-blue-900"
@@ -78,7 +79,7 @@ const Criminal = () => {
             {t("title_detail_tab_1")}
           </button>
           <button
-            onClick={() => setActiveTab("types")}
+            onClick={() => changeTab("types")}
             className={`px-4 py-2 font-medium transition-colors ${
               activeTab === "types"
                 ? "border-b-2 border-blue-900 text-blue-900"
@@ -88,7 +89,7 @@ const Criminal = () => {
             {t("title_detail_tab_2")}
           </button>
           <button
-            onClick={() => setActiveTab("procedure")}
+            onClick={() => changeTab("procedure")}
             className={`px-4 py-2 font-medium transition-colors ${
               activeTab === "procedure"
                 ? "border-b-2 border-blue-900 text-blue-900"

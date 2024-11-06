@@ -190,6 +190,80 @@
             "description": "法院审查证据并作出判决。"
         }
     },
+    "CivilPage": {
+        "title": "民事案件",
+        "title_detail": "民事案件简介，罪行类型，处罚和法律程序",
+        "title_detail_tab_1": "民事案件概述",
+        "title_detail_tab_2": "罪行类型",
+        "title_detail_tab_3": "法律程序",
+        "tab_overview": {
+            "title": "什么是民事案件？",
+            "detail": "民事案件是涉及个人或组织之间关于权利和义务的争议案件，如财产索赔或权利侵犯，且与刑事犯罪无关。",
+            "subtitle_detail": "民事案件的主要特点",
+            "subtitle_detail_1": "个人或组织之间关于权利和义务的争议",
+            "subtitle_detail_2": "没有刑事处罚，重点是赔偿损失",
+            "subtitle_detail_3": "救济措施包括赔偿或遵守要求"
+        },
+        "subtab_overview": {
+            "title": "民事案件中的处罚",
+            "result_title_1": "赔偿损失",
+            "result_description_1": "以金钱或财产形式赔偿给受害方",
+            "result_title_2": "强制执行合同",
+            "result_description_2": "命令当事方遵守合同或其条款",
+            "result_title_3": "返还财产",
+            "result_description_3": "返还被没收的财产或因不当行为受害的财产",
+            "result_title_4": "禁止令",
+            "result_description_4": "禁止某些行为，例如禁止侵犯权利"
+        },
+        "tab_type": {
+            "title_1": "惩罚",
+            "title_2": "犯罪示例"
+        },
+        "tab_procedure": {
+            "title": "民事案件程序",
+            "subtitle": "民事案件的诉讼时效",
+            "topic_1": "严重违法行为",
+            "topic_detail_1_1": "• 关于财产或合同的争议：10年",
+            "topic_detail_1_2": "• 因侵犯权利造成的损害：5年",
+            "topic_2": "一般违法行为",
+            "topic_detail_2_1": "• 违反合同或未履行协议：2年",
+            "topic_detail_2_2": "• 轻微违法行为：1年"
+        },
+        "civilTypes": {
+            "title": "财产相关案件",
+            "description": "涉及财产权利主张的案件，例如要求返还财产或因侵犯权利而要求赔偿",
+            "punishment": "法院判决下的损害赔偿或返还财产",
+            "examples": "要求返还被没收的财产的诉讼，因违约要求赔偿的诉讼"
+        },
+        "civilTypes_2": {
+            "title": "合同相关案件",
+            "description": "涉及违约或未履行约定条款的案件",
+            "punishment": "强制执行合同条款或根据合同进行损害赔偿",
+            "examples": "强制执行合同条款的诉讼，因未履行合同要求赔偿的诉讼"
+        },
+        "civilTypes_3": {
+            "title": "权利侵害案件",
+            "description": "涉及个人或财产权利侵害的案件，如诽谤或版权侵权",
+            "punishment": "赔偿损失或停止侵害权利的行为",
+            "examples": "知识产权侵权的诉讼，诽谤诉讼"
+        },
+        "procedures_1": {
+            "title": "提起诉讼",
+            "description": "受害方向法院提起诉讼，主张权利或请求赔偿"
+        },
+        "procedures_2": {
+            "title": "调查与证据收集",
+            "description": "双方收集证据以支持主张或否认指控"
+        },
+        "procedures_3": {
+            "title": "谈判与调解",
+            "description": "考虑通过谈判或调解解决争议，避免诉讼"
+        },
+        "procedures_4": {
+            "title": "案件审理",
+            "description": "法院根据证据作出判决，并依据法律做出裁定"
+        }
+    },
     "Navbar": {
         "title": "INSIGHT LAWFIRM",
         "home": "主页",

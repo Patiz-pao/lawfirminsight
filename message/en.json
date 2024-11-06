@@ -190,6 +190,80 @@
             "description": "The court examines the evidence and renders a judgment."
         }
     },
+    "CivilPage": {
+        "title": "Civil Cases",
+        "title_detail": "Basic knowledge about civil cases, types of offenses, punishments, and legal procedures",
+        "title_detail_tab_1": "Overview of Civil Cases",
+        "title_detail_tab_2": "Types of Offenses",
+        "title_detail_tab_3": "Legal Procedures",
+        "tab_overview": {
+            "title": "What is a Civil Case?",
+            "detail": "A Civil Case is a case involving disputes between individuals or organizations regarding rights and obligations, such as claims for property or violations of rights, without being related to criminal offenses.",
+            "subtitle_detail": "Key Characteristics of Civil Cases",
+            "subtitle_detail_1": "Disputes between individuals or organizations regarding rights and obligations",
+            "subtitle_detail_2": "No criminal penalties, focusing on compensating damages",
+            "subtitle_detail_3": "Remedies involve compensation or compliance with claims"
+        },
+        "subtab_overview": {
+            "title": "Penalties in Civil Cases",
+            "result_title_1": "Compensation for Damages",
+            "result_description_1": "Compensation in the form of money or property to the harmed party",
+            "result_title_2": "Enforcement of Contracts",
+            "result_description_2": "An order for the parties to comply with the contract or its terms",
+            "result_title_3": "Return of Property",
+            "result_description_3": "Returning property that was seized or harmed by wrongful acts",
+            "result_title_4": "Injunctions",
+            "result_description_4": "A prohibition on certain actions, such as preventing the violation of rights"
+        },
+        "tab_type": {
+            "title_1": "Penalties",
+            "title_2": "Examples of Offenses"
+        },
+        "tab_procedure": {
+            "title": "Procedure in Civil Cases",
+            "subtitle": "Statute of Limitations in Civil Cases",
+            "topic_1": "Serious Offenses",
+            "topic_detail_1_1": "• Disputes regarding property or contracts: 10 years",
+            "topic_detail_1_2": "• Damages from violation of rights: 5 years",
+            "topic_2": "General Offenses",
+            "topic_detail_2_1": "• Breach of contract or failure to comply with agreements: 2 years",
+            "topic_detail_2_2": "• Minor offenses: 1 year"
+        },
+        "civilTypes": {
+            "title": "Property-related Cases",
+            "description": "Cases involving claims to property rights, such as lawsuits for the return of property or claims for damages due to violation of rights",
+            "punishment": "Compensation for damages or return of property as ordered by the court",
+            "examples": "Lawsuits for the return of seized property, lawsuits for compensation from breach of contract"
+        },
+        "civilTypes_2": {
+            "title": "Contract-related Cases",
+            "description": "Cases involving breach of contract or failure to comply with agreed terms",
+            "punishment": "Enforcement of contract terms or compensation for damages according to the contract",
+            "examples": "Lawsuits to enforce contract terms, lawsuits for damages due to non-compliance with contracts"
+        },
+        "civilTypes_3": {
+            "title": "Rights Violation Cases",
+            "description": "Cases arising from violations of personal or property rights, such as defamation or copyright infringement",
+            "punishment": "Compensation for damages or cessation of rights violations",
+            "examples": "Lawsuits for intellectual property violations, defamation lawsuits"
+        },
+        "procedures_1": {
+            "title": "Filing a Lawsuit",
+            "description": "The injured party files a lawsuit in court to claim rights or damages"
+        },
+        "procedures_2": {
+            "title": "Investigation and Gathering of Evidence",
+            "description": "Both parties gather evidence to support claims or to deny allegations"
+        },
+        "procedures_3": {
+            "title": "Negotiation and Mediation",
+            "description": "Consideration of negotiation or mediation to resolve the dispute without litigation"
+        },
+        "procedures_4": {
+            "title": "Case Hearing",
+            "description": "The court reviews evidence and makes a judgment based on the law"
+        }
+    },
     "Navbar": {
         "title": "INSIGHT LAWFIRM",
         "home": "Home",
