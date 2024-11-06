@@ -116,6 +116,80 @@
             "button": "Send Message"
         }
     },
+    "CriminalPage": {
+        "title": "Criminal Cases",
+        "title_detail": "Basic knowledge about criminal cases, types of offenses, punishments, and legal procedures",
+        "title_detail_tab_1": "Overview of Criminal Cases",
+        "title_detail_tab_2": "Types of Offenses",
+        "title_detail_tab_3": "Legal Procedures",
+        "tab_overview": {
+            "title": "What is a Criminal Case?",
+            "detail": "A criminal case is a case involving an act of wrongdoing punishable by criminal law, where the state is the victim and the offender is penalized according to the law.",
+            "subtitle_detail": "Key Characteristics of Criminal Cases",
+            "subtitle_detail_1": "It involves actions that disrupt public order and peace.",
+            "subtitle_detail_2": "There are criminal penalties, such as imprisonment or fines.",
+            "subtitle_detail_3": "The state enforces the law."
+        },
+        "subtab_overview": {
+            "title": "Criminal Penalties",
+            "result_title_1": "Death Penalty",
+            "result_description_1": "For the most serious offenses",
+            "result_title_2": "Imprisonment",
+            "result_description_2": "From 1 day to life imprisonment",
+            "result_title_3": "Detention",
+            "result_description_3": "Up to 1 year",
+            "result_title_4": "Fine",
+            "result_description_4": "Penalty imposed as a monetary fine"
+        },
+        "tab_type": {
+            "title_1": "Penalties",
+            "title_2": "Examples of Offenses"
+        },
+        "tab_procedure": {
+            "title": "Criminal Case Procedures",
+            "subtitle": "Statute of Limitations in Criminal Cases",
+            "topic_1": "Serious Offenses",
+            "topic_detail_1_1": "• Major Crimes: 20 years",
+            "topic_detail_1_2": "• Offenses with imprisonment over 7 years: 15 years",
+            "topic_2": "General Offenses",
+            "topic_detail_2_1": "• Offenses with imprisonment up to 7 years: 10 years",
+            "topic_detail_2_2": "• Minor offenses: 1 year"
+        },
+        "criminalTypes": {
+            "title": "Crimes Against Life",
+            "description": "Crimes committed against the life of others, such as murder, or causing harm leading to death.",
+            "punishment": "Imprisonment for 15-20 years, life imprisonment, or the death penalty.",
+            "examples": "Premeditated murder, involuntary manslaughter, causing death through bodily harm."
+        },
+        "criminalTypes_2": {
+            "title": "Crimes Against the Person",
+            "description": "Crimes committed against the physical body of others, such as assault.",
+            "punishment": "Imprisonment for 6 months to 10 years.",
+            "examples": "Assaulting another person, causing serious bodily harm."
+        },
+        "criminalTypes_3": {
+            "title": "Crimes Against Property",
+            "description": "Crimes committed against another person's property, such as theft, robbery, and burglary.",
+            "punishment": "Imprisonment for 6 months to 15 years.",
+            "examples": "Theft, robbery, burglary, armed robbery."
+        },
+        "procedures_1": {
+            "title": "Filing a Complaint",
+            "description": "The victim files a complaint with the police to proceed with legal action against the offender."
+        },
+        "procedures_2": {
+            "title": "Investigation",
+            "description": "The investigating officer collects evidence to prove the crime."
+        },
+        "procedures_3": {
+            "title": "Lawsuit Filing",
+            "description": "The public prosecutor files a lawsuit in court."
+        },
+        "procedures_4": {
+            "title": "Trial",
+            "description": "The court examines the evidence and renders a judgment."
+        }
+    },
     "Navbar": {
         "title": "INSIGHT LAWFIRM",
         "home": "Home",
