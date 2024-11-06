@@ -53,6 +53,7 @@
             "indent_4": "We are proud of the trust clients have placed in us over the years, and we are ready to continue our stable growth. We are committed to improving our organization and services to build confidence as a comprehensive law firm and as a reliable partner in every aspect of law for our clients."
         },
         "person_info": {
+            "title": "Our Legal Team",
             "person_1": {
                 "name": "Mr. Somchai Jaidee",
                 "position": "Senior Chief Attorney",
@@ -77,6 +78,42 @@
                 "expert": "Expertise: Criminal Law and General Cases",
                 "experience": "Experience: 10 years"
             }
+        },
+        "principle": {
+            "title": "Our Working Principles",
+            "title_column_1": "Fairness",
+            "detail_column_1": "Uphold the principles of justice and professional ethics",
+            "title_column_2": "Trust",
+            "detail_column_2": "Build confidence and trust with clients",
+            "title_column_3": "Expertise",
+            "detail_column_3": "Continuously develop knowledge and skills"
+        }
+    },
+    "ContactPage": {
+        "title": "Contact",
+        "title_detail": "Happy to give legal advice to you",
+        "topic_location": "Contact information",
+        "location": {
+            "name": "Bangkok",
+            "address": "123 Ratchadaphisek Road, Huai Khwang, Bangkok 10310",
+            "title_phone": "Phone Number",
+            "phone": "02-123-4567",
+            "title_email": "Email",
+            "email": "contact@example.com",
+            "title_hours": "Business Hours",
+            "hours": "Mon - Fri: 9:00 AM - 5:00 PM"
+        },
+        "message": {
+            "title": "Send us a message",
+            "title_name": "Full Name",
+            "placehoder_name": "Please enter your full name",
+            "title_email": "Email",
+            "placehoder_email": "contact@example.com",
+            "title_phone": "Phone Number",
+            "placehoder_phone": "08-xxx-xxxx",
+            "title_message": "Message",
+            "placehoder_message": "Please enter your message",
+            "button": "Send Message"
         }
     },
     "Navbar": {

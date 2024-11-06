@@ -53,6 +53,7 @@
             "indent_4": "我们为多年来客户对我们的信任感到自豪，并准备继续稳定地成长。我们致力于改进我们的组织和服务，以建立信任，成为一个综合性律师事务所，并成为客户在法律各方面可以依赖的重要合作伙伴。"
         },
         "person_info": {
+            "title": "我们的法律团队",
             "person_1": {
                 "name": "Mr. Somchai Jaidee",
                 "position": "高级首席律师",
@@ -77,6 +78,42 @@
                 "expert": "专长: 刑法和一般案件",
                 "experience": "经验: 10年"
             }
+        },
+        "principle": {
+            "title": "我们的工作原则",
+            "title_column_1": "公平",
+            "detail_column_1": "坚持公正原则和职业道德",
+            "title_column_2": "信任",
+            "detail_column_2": "建立客户的信任与信心",
+            "title_column_3": "专业",
+            "detail_column_3": "持续发展知识和技能"
+        }
+    },
+    "ContactPage": {
+        "title": "联系我们",
+        "title_detail": "很乐意为您提供法律咨询服务",
+        "topic_location": "联系信息",
+        "location": {
+            "name": "曼谷",
+            "address": "123 Ratchadaphisek Road, Huai Khwang, Bangkok 10310",
+            "title_phone": "电话号码",
+            "phone": "02-123-4567",
+            "title_email": "电子邮件",
+            "email": "contact@example.com",
+            "title_hours": "营业时间",
+            "hours": "周一 - 周五: 9:00 AM - 5:00 PM"
+        },
+        "message": {
+            "title": "给我们发送消息",
+            "title_name": "姓名",
+            "placehoder_name": "请输入您的姓名",
+            "title_email": "电子邮件",
+            "placehoder_email": "contact@example.com",
+            "title_phone": "电话号码",
+            "placehoder_phone": "08-xxx-xxxx",
+            "title_message": "消息",
+            "placehoder_message": "请输入您的消息",
+            "button": "发送消息"
         }
     },
     "Navbar": {
