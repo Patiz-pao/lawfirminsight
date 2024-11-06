@@ -29,7 +29,7 @@ const Navbar = () => {
   }, [pathname]);
 
   return (
-    <nav className="bg-gray-800">
+    <nav className="bg-gray-800 relative z-50">
       <div className="container mx-auto max-w-[1140px] px-5 py-3 lg:px-0 lg:p-0">
         <div className="h-16 flex justify-between items-center">
           <div className="text-white text-xl font-bold">{t("title")}</div>
