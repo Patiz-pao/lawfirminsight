@@ -84,7 +84,7 @@ const Navbar = () => {
                   >
                     <div className="py-1">
                       <Link
-                        href="/services/page1"
+                        href="/services/CriminalPage"
                         className="block px-4 py-2 text-sm text-gray-300 hover:bg-gray-600 hover:text-white transition-colors duration-200"
                       >
                         {t("services.service_title_1")}

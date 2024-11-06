@@ -116,6 +116,80 @@
             "button": "发送消息"
         }
     },
+    "CriminalPage": {
+        "title": "刑事案件",
+        "title_detail": "有关刑事案件、犯罪类型、处罚和法律程序的基本知识",
+        "title_detail_tab_1": "刑事案件概述",
+        "title_detail_tab_2": "犯罪类型",
+        "title_detail_tab_3": "法律程序",
+        "tab_overview": {
+            "title": "什么是刑事案件？",
+            "detail": "刑事案件是指涉及违法行为并受到刑法处罚的案件，由国家作为受害方，并根据法律对违法者进行惩罚。",
+            "subtitle_detail": "刑事案件的主要特征",
+            "subtitle_detail_1": "涉及影响社会秩序与安定的行为。",
+            "subtitle_detail_2": "有刑事处罚，例如监禁或罚款。",
+            "subtitle_detail_3": "国家依法维护法治。"
+        },
+        "subtab_overview": {
+            "title": "刑事处罚",
+            "result_title_1": "死刑",
+            "result_description_1": "用于最严重的犯罪",
+            "result_title_2": "监禁",
+            "result_description_2": "从1天到终身监禁",
+            "result_title_3": "拘禁",
+            "result_description_3": "最长为1年",
+            "result_title_4": "罚款",
+            "result_description_4": "以金钱形式罚款"
+        },
+        "tab_type": {
+            "title_1": "惩罚",
+            "title_2": "犯罪示例"
+        },
+        "tab_procedure": {
+            "title": "刑事案件程序",
+            "subtitle": "刑事案件的诉讼时效",
+            "topic_1": "严重犯罪",
+            "topic_detail_1_1": "• 严重犯罪：20年",
+            "topic_detail_1_2": "• 刑期超过7年的犯罪：15年",
+            "topic_2": "一般犯罪",
+            "topic_detail_2_1": "• 刑期不超过7年的犯罪：10年",
+            "topic_detail_2_2": "• 轻罪：1年"
+        },
+        "criminalTypes": {
+            "title": "对生命的犯罪",
+            "description": "对他人生命所犯的罪行，如谋杀或因伤害导致他人死亡。",
+            "punishment": "监禁 15-20 年，终身监禁或死刑。",
+            "examples": "故意谋杀，过失杀人，因身体伤害导致他人死亡。"
+        },
+        "criminalTypes_2": {
+            "title": "对身体的犯罪",
+            "description": "对他人身体的犯罪行为，如袭击。",
+            "punishment": "监禁 6 个月至 10 年。",
+            "examples": "袭击他人，造成严重的身体伤害。"
+        },
+        "criminalTypes_3": {
+            "title": "财产犯罪",
+            "description": "对他人财产所犯的罪行，如盗窃、抢劫和入室盗窃。",
+            "punishment": "监禁 6 个月至 15 年。",
+            "examples": "盗窃，抢劫，入室盗窃，武装抢劫。"
+        },
+        "procedures_1": {
+            "title": "提起投诉",
+            "description": "受害人向警方报案，启动对犯罪嫌疑人的法律程序。"
+        },
+        "procedures_2": {
+            "title": "调查",
+            "description": "调查员收集证据以证明犯罪行为。"
+        },
+        "procedures_3": {
+            "title": "起诉",
+            "description": "检察官向法院提起诉讼。"
+        },
+        "procedures_4": {
+            "title": "审判",
+            "description": "法院审查证据并作出判决。"
+        }
+    },
     "Navbar": {
         "title": "INSIGHT LAWFIRM",
         "home": "主页",
