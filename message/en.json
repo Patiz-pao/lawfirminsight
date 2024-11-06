@@ -264,6 +264,78 @@
             "description": "The court reviews evidence and makes a judgment based on the law"
         }
     },
+    "TaxPage": {
+        "title": "Tax Cases",
+        "title_detail": "Introduction to Tax Cases, Types of Offenses, Penalties, and Legal Procedures",
+        "title_detail_tab_1": "Overview of Tax Cases",
+        "title_detail_tab_2": "Types of Offenses",
+        "title_detail_tab_3": "Legal Procedures",
+        "tab_overview": {
+            "title": "What is a Tax Case?",
+            "detail": "A tax case involves issues related to tax evasion or non-payment of taxes as required by law, including cases of intentional tax evasion or failure to provide proof of tax payment.",
+            "subtitle_detail": "Key Characteristics of Tax Cases",
+            "subtitle_detail_1": "Involves compliance with tax law",
+            "subtitle_detail_2": "May involve tax evasion or concealment of information",
+            "subtitle_detail_3": "Carries financial penalties or imprisonment"
+        },
+        "subtab_overview": {
+            "title": "Tax Penalties",
+            "result_title_1": "Fines",
+            "result_description_1": "Payment of fines according to the rates prescribed by law",
+            "result_title_2": "Imprisonment",
+            "result_description_2": "Imprisonment as ordered by the court in cases of severe tax violations",
+            "result_title_3": "Tax Payment Recovery",
+            "result_description_3": "Order to pay back taxes or fines as per the court's ruling"
+        },
+        "tab_type": {
+            "title_1": "Penalties",
+            "title_2": "Examples of Offenses"
+        },
+        "tab_procedure": {
+            "title": "Tax Case Legal Procedures",
+            "subtitle": "Statute of Limitations in Tax Cases",
+            "topic_1": "Serious Offenses",
+            "topic_detail_1_1": "• Tax evasion involving large amounts: 10 years",
+            "topic_detail_1_2": "• Concealment of income or assets: 5 years",
+            "topic_2": "Common Offenses",
+            "topic_detail_2_1": "• Filing incorrect tax returns: 5 years",
+            "topic_detail_2_2": "• Failure to file tax returns: 3 years"
+        },
+        "taxTypes": {
+            "title": "Tax Evasion",
+            "description": "Offenses related to tax evasion or failure to file accurate tax returns",
+            "punishment": "Fines or imprisonment as prescribed by law",
+            "examples": "Tax evasion on income, concealment of business income"
+        },
+        "taxTypes_2": {
+            "title": "Concealing Tax Information",
+            "description": "Failure to disclose accurate information on tax documents or providing false information",
+            "punishment": "Fines for unpaid taxes or imprisonment",
+            "examples": "Concealing business income, providing false information about income or assets"
+        },
+        "taxTypes_3": {
+            "title": "Filing Incorrect Tax Returns",
+            "description": "Filing incorrect or incomplete tax returns, such as incorrect data entry or miscalculating taxes",
+            "punishment": "Fines or correction of tax filings",
+            "examples": "Incorrect tax data entry, filing incorrect types of tax returns"
+        },
+        "procedures_1": {
+            "title": "Tax Inspection",
+            "description": "Tax officials review the tax payment information of individuals or businesses"
+        },
+        "procedures_2": {
+            "title": "Filing a Tax Case",
+            "description": "Tax authorities file a lawsuit in court if tax violations are found"
+        },
+        "procedures_3": {
+            "title": "Negotiation or Mediation",
+            "description": "Negotiation or mediation between tax authorities and taxpayers to resolve tax violations"
+        },
+        "procedures_4": {
+            "title": "Court Review",
+            "description": "The court reviews the case and imposes penalties according to tax laws"
+        }
+    },
     "Navbar": {
         "title": "INSIGHT LAWFIRM",
         "home": "Home",

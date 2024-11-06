@@ -264,6 +264,78 @@
             "description": "法院根据证据作出判决，并依据法律做出裁定"
         }
     },
+    "TaxPage": {
+        "title": "税务案件",
+        "title_detail": "税务案件的基础知识、罪行类型、处罚和法律程序",
+        "title_detail_tab_1": "税务案件概览",
+        "title_detail_tab_2": "罪行类型",
+        "title_detail_tab_3": "法律程序",
+        "tab_overview": {
+            "title": "什么是税务案件？",
+            "detail": "税务案件涉及与逃税或未按法律规定支付税款相关的问题，包括故意逃税或未能提供税务支付证明的案件。",
+            "subtitle_detail": "税务案件的关键特征",
+            "subtitle_detail_1": "涉及遵守税法",
+            "subtitle_detail_2": "可能涉及逃税或信息隐瞒",
+            "subtitle_detail_3": "具有经济处罚或监禁"
+        },
+        "subtab_overview": {
+            "title": "税务处罚",
+            "result_title_1": "罚款",
+            "result_description_1": "根据法律规定的罚款金额进行支付",
+            "result_title_2": "监禁",
+            "result_description_2": "法院判决在发现严重税务违法行为后执行监禁",
+            "result_title_3": "恢复税款支付",
+            "result_description_3": "根据法院判决命令支付未支付的税款或罚款"
+        },
+        "tab_type": {
+            "title_1": "处罚",
+            "title_2": "违法行为示例"
+        },
+        "tab_procedure": {
+            "title": "税务案件法律程序",
+            "subtitle": "税务案件的诉讼时效",
+            "topic_1": "严重违法行为",
+            "topic_detail_1_1": "• 大额逃税：10年",
+            "topic_detail_1_2": "• 隐瞒收入或资产：5年",
+            "topic_2": "一般违法行为",
+            "topic_detail_2_1": "• 提交错误的税务申报：5年",
+            "topic_detail_2_2": "• 未提交税务申报：3年"
+        },
+        "taxTypes": {
+            "title": "逃税",
+            "description": "与逃税或未提交准确税务申报相关的违法行为",
+            "punishment": "根据法律规定的罚款或监禁",
+            "examples": "逃税收入、隐瞒商业收入"
+        },
+        "taxTypes_2": {
+            "title": "隐瞒税务信息",
+            "description": "未在税务文件中披露准确信息或提供虚假信息",
+            "punishment": "未支付税款的罚款或监禁",
+            "examples": "隐瞒商业收入、提供虚假收入或资产信息"
+        },
+        "taxTypes_3": {
+            "title": "提交错误的税务申报",
+            "description": "提交错误或不完整的税务申报，例如填写不完整的资料或计算错误的税款",
+            "punishment": "罚款或更正税务申报",
+            "examples": "错误填写税务信息、提交错误类型的税务申报"
+        },
+        "procedures_1": {
+            "title": "税务检查",
+            "description": "税务官员检查个人或企业的税款支付信息"
+        },
+        "procedures_2": {
+            "title": "提起税务案件",
+            "description": "如果发现税务违法行为，税务部门会向法院提起诉讼"
+        },
+        "procedures_3": {
+            "title": "谈判或调解",
+            "description": "税务官员和纳税人之间进行谈判或调解，以解决税务违法问题"
+        },
+        "procedures_4": {
+            "title": "法院审理",
+            "description": "法院审理案件并根据税法作出判决"
+        }
+    },
     "Navbar": {
         "title": "INSIGHT LAWFIRM",
         "home": "主页",

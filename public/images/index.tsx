@@ -5,5 +5,6 @@ import person from "./about.png";
 
 import criminal from "./criminal.jpg";
 import civilImage from "./civil.jpg";
+import taxImage from "./tax.jpg";
 
-export { homePage, detailPage, team, person, criminal, civilImage };
+export { homePage, detailPage, team, person, criminal, civilImage, taxImage };
