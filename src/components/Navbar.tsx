@@ -102,19 +102,19 @@ const Navbar = () => {
                         {t("services.service_title_3")}
                       </Link>
                       <Link
-                        href="/services/security"
+                        href="/services/SpecialInvestigativePage"
                         className="block px-4 py-2 text-sm text-gray-300 hover:bg-gray-600 hover:text-white transition-colors duration-200"
                       >
                         {t("services.service_title_4")}
                       </Link>
                       <Link
-                        href="/services/training"
+                        href="/services/UnheritancePage"
                         className="block px-4 py-2 text-sm text-gray-300 hover:bg-gray-600 hover:text-white transition-colors duration-200"
                       >
                         {t("services.service_title_5")}
                       </Link>
                       <Link
-                        href="/services/support"
+                        href="/services/FamilyPage"
                         className="block px-4 py-2 text-sm text-gray-300 hover:bg-gray-600 hover:text-white transition-colors duration-200"
                       >
                         {t("services.service_title_6")}
@@ -209,19 +209,19 @@ const Navbar = () => {
                     {t("services.service_title_3")}
                   </Link>
                   <Link
-                    href="/services/security"
+                    href="/services/SpecialInvestigativePage"
                     className="block text-gray-300 hover:text-white transition-colors duration-200 mt-2"
                   >
                     {t("services.service_title_4")}
                   </Link>
                   <Link
-                    href="/services/training"
+                    href="/services/UnheritancePage"
                     className="block text-gray-300 hover:text-white transition-colors duration-200 mt-2"
                   >
                     {t("services.service_title_5")}
                   </Link>
                   <Link
-                    href="/services/support"
+                    href="/services/FamilyPage"
                     className="block text-gray-300 hover:text-white transition-colors duration-200 mt-2"
                   >
                     {t("services.service_title_6")}

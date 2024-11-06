@@ -336,6 +336,224 @@
             "description": "法院审理案件并根据税法作出判决"
         }
     },
+    "SpecialInvestigationPage": {
+        "title": "特别调查案件",
+        "title_detail": "关于特别调查案件的基础知识、犯罪类型、处罚和法律程序",
+        "title_detail_tab_1": "特别调查案件概述",
+        "title_detail_tab_2": "犯罪类型",
+        "title_detail_tab_3": "法律程序",
+        "tab_overview": {
+            "title": "什么是特别调查案件？",
+            "detail": "特别调查案件涉及那些危害公共安全或国家安全的犯罪行为，例如金融欺诈、洗钱、人口贩卖或恐怖主义。",
+            "subtitle_detail": "特别调查案件的关键特征",
+            "subtitle_detail_1": "涉及对公共安全或国家安全的犯罪行为",
+            "subtitle_detail_2": "特别调查人员有权执行特别调查权力",
+            "subtitle_detail_3": "可以根据特别法律采取行动以保护公共利益"
+        },
+        "subtab_overview": {
+            "title": "特别调查案件的处罚",
+            "result_title_1": "监禁",
+            "result_description_1": "根据犯罪的严重性判处监禁",
+            "result_title_2": "罚款",
+            "result_description_2": "根据法院裁定的金额判处罚款",
+            "result_title_3": "没收财产",
+            "result_description_3": "没收通过犯罪行为获得的财产"
+        },
+        "tab_type": {
+            "title_1": "处罚",
+            "title_2": "犯罪示例"
+        },
+        "tab_procedure": {
+            "title": "特别调查案件的法律程序",
+            "subtitle": "特别调查案件的诉讼程序",
+            "topic_1": "严重犯罪",
+            "topic_detail_1_1": "• 政府或机构的腐败：10-20年",
+            "topic_detail_1_2": "• 洗钱或人口贩卖：15年",
+            "topic_2": "一般犯罪",
+            "topic_detail_2_1": "• 税务欺诈或不正当税务：5-10年",
+            "topic_detail_2_2": "• 贪污：5-10年"
+        },
+        "specialInvestigationTypes": {
+            "title": "金融腐败",
+            "description": "与金融腐败或金融欺诈行为有关的犯罪，例如诈骗或掩盖腐败行为",
+            "punishment": "监禁或法院裁定的罚款",
+            "examples": "挪用公司资金，政府机构中的腐败"
+        },
+        "specialInvestigationTypes_2": {
+            "title": "洗钱",
+            "description": "洗钱是将通过非法行为获得的资金转变为看似合法的收入",
+            "punishment": "监禁和法院裁定的罚款",
+            "examples": "将不正当来源的资金转移到银行以隐藏资金来源"
+        },
+        "specialInvestigationTypes_3": {
+            "title": "人口贩卖",
+            "description": "人口贩卖是指强迫个人从事非法劳动或遭受虐待",
+            "punishment": "长期监禁和根据法律判定的罚款",
+            "examples": "将人贩卖为性交易，强迫劳动"
+        },
+        "procedures_1": {
+            "title": "特别调查案件的调查",
+            "description": "特别调查人员收集证据并进行调查，以证明犯罪行为"
+        },
+        "procedures_2": {
+            "title": "提起特别调查案件诉讼",
+            "description": "检察官向法院提起诉讼，以对犯罪嫌疑人采取法律行动"
+        },
+        "procedures_3": {
+            "title": "谈判或调解",
+            "description": "如果存在争议，进行谈判或调解以达成解决方案"
+        },
+        "procedures_4": {
+            "title": "审理案件",
+            "description": "法院审理案件并根据相关法律对特别调查案件作出判决"
+        }
+    },
+    "InheritancePage": {
+        "title": "继承案件",
+        "title_detail": "关于继承案件的基础知识、犯罪类型、处罚和法律程序",
+        "title_detail_tab_1": "继承案件概述",
+        "title_detail_tab_2": "犯罪类型",
+        "title_detail_tab_3": "法律程序",
+        "tab_overview": {
+            "title": "什么是继承案件？",
+            "detail": "继承案件涉及从死者处转移财产，可能包括有关遗产分割的争议或涉及非法行为，如挪用死者资产。",
+            "subtitle_detail": "继承案件的主要特点",
+            "subtitle_detail_1": "涉及死后财产的分配",
+            "subtitle_detail_2": "可能因遗嘱或继承的争议而发生",
+            "subtitle_detail_3": "非法行为可能包括挪用或隐瞒遗产"
+        },
+        "subtab_overview": {
+            "title": "继承案件中的处罚",
+            "result_title_1": "分割遗产诉讼",
+            "result_description_1": "根据法律提起诉讼，要求分割死者的财产",
+            "result_title_2": "挪用遗产",
+            "result_description_2": "非法行为，如挪用或隐瞒死者资产",
+            "result_title_3": "不当转让遗产",
+            "result_description_3": "将遗产转移给不符合法律的人"
+        },
+        "tab_type": {
+            "title_1": "犯罪类型",
+            "title_2": "犯罪示例"
+        },
+        "tab_procedure": {
+            "title": "继承案件的法律程序",
+            "subtitle": "继承案件的诉讼时效",
+            "topic_1": "与挪用遗产有关的犯罪",
+            "topic_detail_1_1": "• 挪用遗产财产：10年",
+            "topic_detail_1_2": "• 不当转让遗产：5年",
+            "topic_2": "与分割遗产有关的犯罪",
+            "topic_detail_2_1": "• 分割遗产诉讼：5年",
+            "topic_detail_2_2": "• 遗产分割争议：3年"
+        },
+        "inheritanceTypes": {
+            "title": "挪用遗产",
+            "description": "与挪用或隐瞒死者资产有关的行为",
+            "punishment": "挪用遗产可能会受到刑事处罚，如监禁或罚款",
+            "examples": "挪用遗产中的财产，隐瞒实际遗产"
+        },
+        "inheritanceTypes_2": {
+            "title": "不当转让遗产",
+            "description": "将遗产转让给不符合资格的人",
+            "punishment": "可能会受到民事处罚或法院裁定",
+            "examples": "将遗产转让给未依法获得继承权的人"
+        },
+        "inheritanceTypes_3": {
+            "title": "分割遗产诉讼",
+            "description": "提起诉讼，要求分割死者留下的财产",
+            "punishment": "在法院解决争议",
+            "examples": "要求依法分割遗产的继承人拒绝分割"
+        },
+        "procedures_1": {
+            "title": "提交继承申请",
+            "description": "继承权人向法院提交继承分割请求"
+        },
+        "procedures_2": {
+            "title": "收集证据",
+            "description": "收集证据以证明继承权"
+        },
+        "procedures_3": {
+            "title": "诉讼或谈判",
+            "description": "提起诉讼或进行谈判，分割遗产或赔偿损失"
+        },
+        "procedures_4": {
+            "title": "案件审理",
+            "description": "法院审理案件并裁定关于继承的诉讼"
+        }
+    },
+    "FamilyPage": {
+        "title": "家庭案件",
+        "title_detail": "家庭案件介绍、犯罪类型、处罚和处理程序",
+        "title_detail_tab_1": "家庭案件概述",
+        "title_detail_tab_2": "犯罪类型",
+        "title_detail_tab_3": "处理程序",
+        "tab_overview": {
+            "title": "什么是家庭案件？",
+            "detail": "家庭案件涉及与家庭有关的问题，如离婚、赡养费索赔、收养和财产分割。",
+            "subtitle_detail": "家庭案件的主要特点",
+            "subtitle_detail_1": "涉及家庭关系和家庭角色",
+            "subtitle_detail_2": "对相关人员可能有法律和情感影响",
+            "subtitle_detail_3": "通常在进入法庭程序之前进行调解"
+        },
+        "subtab_overview": {
+            "title": "家庭案件的处罚",
+            "result_title_1": "离婚",
+            "result_description_1": "根据法律与配偶离婚",
+            "result_title_2": "赡养费索赔",
+            "result_description_2": "对子女或配偶的赡养费索赔",
+            "result_title_3": "财产分割",
+            "result_description_3": "分割婚姻期间获得的财产",
+            "result_title_4": "收养",
+            "result_description_4": "合法收养过程"
+        },
+        "tab_type": {
+            "title_1": "犯罪类型",
+            "title_2": "犯罪示例"
+        },
+        "tab_procedure": {
+            "title": "家庭案件处理程序",
+            "subtitle": "家庭案件流程",
+            "topic_1": "调解和咨询",
+            "topic_detail_1_1": "• 家庭咨询：减少冲突和情感影响",
+            "topic_detail_1_2": "• 调解：在法律诉讼之前寻求解决方案",
+            "topic_2": "法庭诉讼",
+            "topic_detail_2_1": "• 提交离婚或赡养费申请",
+            "topic_detail_2_2": "• 财产分割和子女抚养安排"
+        },
+        "familyTypes": {
+            "title": "离婚",
+            "description": "由于家庭问题或未履行婚姻条件而提出离婚",
+            "punishment": "离婚影响法律权利和义务，如子女抚养或财产分割",
+            "examples": "因冲突而离婚，要求在离婚时分割财产"
+        },
+        "familyTypes_2": {
+            "title": "赡养费索赔",
+            "description": "根据法律规定对子女或配偶的赡养费索赔",
+            "punishment": "赡养费由法院根据配偶或父母的经济状况决定",
+            "examples": "子女抚养费索赔，离婚后的配偶赡养费索赔"
+        },
+        "familyTypes_3": {
+            "title": "财产分割",
+            "description": "婚姻期间或离婚后获得的财产分割",
+            "punishment": "根据协议或法院裁定进行财产分割",
+            "examples": "婚姻期间获得财产的分割，共同财产的分割"
+        },
+        "procedures_1": {
+            "title": "申请或调解",
+            "description": "相关方向法院提出申请以解决家庭问题"
+        },
+        "procedures_2": {
+            "title": "证据核实和收集",
+            "description": "法院核实证据以支持决策过程"
+        },
+        "procedures_3": {
+            "title": "案件审理",
+            "description": "法院根据证据和法律原则考虑案件，以确保各方的公正"
+        },
+        "procedures_4": {
+            "title": "判决执行",
+            "description": "相关方按照法院的判决执行"
+        }
+    },
     "Navbar": {
         "title": "INSIGHT LAWFIRM",
         "home": "主页",

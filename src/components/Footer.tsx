@@ -27,25 +27,25 @@ const Footer = () => {
             {t("services.service_title_2")}
           </Link>
           <Link
-            href="/products"
+            href="/services/TaxPage"
             className="text-gray-300 hover:text-white transition-colors duration-200 block lg:inline"
           >
             {t("services.service_title_3")}
           </Link>
           <Link
-            href="/gallery"
+            href="/services/SpecialInvestigativePage"
             className="text-gray-300 hover:text-white transition-colors duration-200 block lg:inline"
           >
             {t("services.service_title_4")}
           </Link>
           <Link
-            href="/promotions"
+            href="/services/UnheritancePage"
             className="text-gray-300 hover:text-white transition-colors duration-200 block lg:inline"
           >
             {t("services.service_title_5")}
           </Link>
           <Link
-            href="/contact"
+            href="/services/FamilyPage"
             className="text-gray-300 hover:text-white transition-colors duration-200 block lg:inline"
           >
             {t("services.service_title_6")}
