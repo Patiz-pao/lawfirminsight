@@ -6,6 +6,19 @@ import person from "./about.png";
 import criminal from "./criminal.jpg";
 import civilImage from "./civil.jpg";
 import taxImage from "./tax.jpg";
-import specialinvestigative from "./specialinvestigative.jpg"
+import specialinvestigative from "./specialinvestigative.jpg";
+import unheritance from "./unheritance.jpg";
+import family from "./family.jpg";
 
-export { homePage, detailPage, team, person, criminal, civilImage, taxImage, specialinvestigative };
+export {
+  homePage,
+  detailPage,
+  team,
+  person,
+  criminal,
+  civilImage,
+  taxImage,
+  specialinvestigative,
+  unheritance,
+  family,
+};

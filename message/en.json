@@ -408,6 +408,152 @@
             "description": "The court proceeds with trial and judgment based on the laws relevant to special investigation cases"
         }
     },
+    "InheritancePage": {
+        "title": "Inheritance Cases",
+        "title_detail": "Basic knowledge about inheritance cases, types of crimes, punishments, and legal procedures",
+        "title_detail_tab_1": "Overview of Inheritance Cases",
+        "title_detail_tab_2": "Types of Crimes",
+        "title_detail_tab_3": "Legal Procedures",
+        "tab_overview": {
+            "title": "What are Inheritance Cases?",
+            "detail": "Inheritance cases involve the transfer of property from a deceased person, which may include disputes over the division of the inheritance or wrongful actions such as embezzling the deceased's assets.",
+            "subtitle_detail": "Key Features of Inheritance Cases",
+            "subtitle_detail_1": "Involves the division of assets following death",
+            "subtitle_detail_2": "May arise from disputes over the will or inheritance",
+            "subtitle_detail_3": "Wrongful acts may include embezzling or concealing inheritance"
+        },
+        "subtab_overview": {
+            "title": "Punishments in Inheritance Cases",
+            "result_title_1": "Lawsuit for Dividing Inheritance",
+            "result_description_1": "Filing a lawsuit to divide the deceased's assets according to the law",
+            "result_title_2": "Embezzling Inheritance",
+            "result_description_2": "Wrongful actions in embezzling or concealing the deceased's assets",
+            "result_title_3": "Incorrect Transfer of Inheritance",
+            "result_description_3": "Transferring inheritance to an incorrect person according to the law"
+        },
+        "tab_type": {
+            "title_1": "Types of Crimes",
+            "title_2": "Examples of Crimes"
+        },
+        "tab_procedure": {
+            "title": "Legal Procedures in Inheritance Cases",
+            "subtitle": "Statute of Limitations in Inheritance Cases",
+            "topic_1": "Crimes Related to Embezzling Inheritance",
+            "topic_detail_1_1": "• Embezzling inheritance assets: 10 years",
+            "topic_detail_1_2": "• Incorrect transfer of inheritance: 5 years",
+            "topic_2": "Crimes Related to Dividing Inheritance",
+            "topic_detail_2_1": "• Lawsuit for dividing inheritance: 5 years",
+            "topic_detail_2_2": "• Disputes over inheritance division: 3 years"
+        },
+        "inheritanceTypes": {
+            "title": "Embezzling Inheritance",
+            "description": "Actions related to embezzling or concealing the deceased's assets",
+            "punishment": "Embezzling inheritance may result in criminal penalties such as imprisonment or fines",
+            "examples": "Embezzling assets from inheritance, concealing the actual inheritance"
+        },
+        "inheritanceTypes_2": {
+            "title": "Incorrect Transfer of Inheritance",
+            "description": "Transferring inheritance to someone who is not legally entitled to it",
+            "punishment": "Civil penalties or court judgments may apply",
+            "examples": "Transferring inheritance to someone not entitled under the law"
+        },
+        "inheritanceTypes_3": {
+            "title": "Lawsuit for Dividing Inheritance",
+            "description": "Filing a lawsuit to divide the assets left by the deceased among the heirs",
+            "punishment": "Resolving disputes in court",
+            "examples": "Requesting the division of inheritance from heirs who refuse to divide according to the law"
+        },
+        "procedures_1": {
+            "title": "Filing an Inheritance Claim",
+            "description": "The heir who is entitled to the inheritance files a claim to divide the inheritance in court"
+        },
+        "procedures_2": {
+            "title": "Gathering Evidence",
+            "description": "Gathering evidence to prove the right to inherit"
+        },
+        "procedures_3": {
+            "title": "Lawsuit or Negotiation",
+            "description": "Filing a lawsuit or negotiating to divide the inheritance or compensate for damages"
+        },
+        "procedures_4": {
+            "title": "Case Review",
+            "description": "The court reviews the case and decides on the inheritance-related lawsuit"
+        }
+    },
+    "FamilyPage": {
+        "title": "Family Cases",
+        "title_detail": "Introduction to Family Cases, Types of Offenses, Penalties, and Procedures",
+        "title_detail_tab_1": "Overview of Family Cases",
+        "title_detail_tab_2": "Types of Offenses",
+        "title_detail_tab_3": "Procedures",
+        "tab_overview": {
+            "title": "What are Family Cases?",
+            "detail": "Family cases involve family-related issues such as divorce, alimony claims, adoption, and property division.",
+            "subtitle_detail": "Key Features of Family Cases",
+            "subtitle_detail_1": "Involves relationships and roles within the family",
+            "subtitle_detail_2": "Can have both legal and emotional impacts on those involved",
+            "subtitle_detail_3": "Often includes mediation before entering court proceedings"
+        },
+        "subtab_overview": {
+            "title": "Penalties in Family Cases",
+            "result_title_1": "Divorce",
+            "result_description_1": "Legal divorce from a spouse",
+            "result_title_2": "Alimony Claims",
+            "result_description_2": "Claims for child or spousal support",
+            "result_title_3": "Property Division",
+            "result_description_3": "Division of assets acquired during marriage",
+            "result_title_4": "Adoption",
+            "result_description_4": "Legal adoption process"
+        },
+        "tab_type": {
+            "title_1": "Types of Offenses",
+            "title_2": "Examples of Offenses"
+        },
+        "tab_procedure": {
+            "title": "Family Case Procedures",
+            "subtitle": "Family Case Process",
+            "topic_1": "Mediation and Counseling",
+            "topic_detail_1_1": "• Family counseling: To reduce conflict and emotional impact",
+            "topic_detail_1_2": "• Mediation: To seek resolution before legal proceedings",
+            "topic_2": "Court Proceedings",
+            "topic_detail_2_1": "• Filing for divorce or alimony claims",
+            "topic_detail_2_2": "• Asset division and child custody arrangements"
+        },
+        "familyTypes": {
+            "title": "Divorce",
+            "description": "Filing for divorce due to family issues or failure to fulfill marital conditions",
+            "punishment": "Divorce affects legal rights and duties, such as child custody or asset division",
+            "examples": "Divorce due to conflict, requesting asset division upon divorce"
+        },
+        "familyTypes_2": {
+            "title": "Alimony Claims",
+            "description": "Claims for child or spousal support as required by law",
+            "punishment": "Alimony determined by the court based on financial status of the spouse or parent",
+            "examples": "Child support claims, spousal support claims after divorce"
+        },
+        "familyTypes_3": {
+            "title": "Property Division",
+            "description": "Division of assets acquired during marriage or after divorce",
+            "punishment": "Asset division based on agreement or court determination",
+            "examples": "Division of assets acquired during marriage, jointly acquired property division"
+        },
+        "procedures_1": {
+            "title": "Filing or Mediation",
+            "description": "The involved parties file a petition to the court to resolve family issues"
+        },
+        "procedures_2": {
+            "title": "Evidence Verification and Collection",
+            "description": "The court verifies evidence to support the decision-making process"
+        },
+        "procedures_3": {
+            "title": "Case Hearing",
+            "description": "The court considers evidence and legal principles to ensure justice for all parties"
+        },
+        "procedures_4": {
+            "title": "Enforcement of Judgment",
+            "description": "The involved parties adhere to the court's judgment as prescribed"
+        }
+    },
     "Navbar": {
         "title": "INSIGHT LAWFIRM",
         "home": "Home",
